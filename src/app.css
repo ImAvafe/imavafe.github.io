@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 @import 'tailwindcss';
 
 @plugin '@tailwindcss/forms';
@@ -49,8 +49,8 @@
   --color-base-200: oklch(19% 0 0);
   --color-base-300: oklch(22% 0 0);
   --color-base-content: oklch(87.609% 0 0);
-  --color-primary: oklch(35% 0 0);
-  --color-primary-content: oklch(100% 0 0);
+  --color-primary: #9f84ff;
+  --color-primary-content: #9f84ff;
   --color-secondary: oklch(35% 0 0);
   --color-secondary-content: oklch(100% 0 0);
   --color-accent: oklch(35% 0 0);
@@ -76,7 +76,7 @@
 }
 
 @theme {
-  --font-sans: "Lato", sans-serif;
+  --font-sans: "Bricolage Grotesque", sans-serif;
   --font-serif: "Source Serif 4", serif;
   --font-normal: 400;
 }

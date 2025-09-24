@@ -10,13 +10,17 @@
 			href: "/",
 		},
 		{
-			label: "/blog",
-			href: "blog",
+			label: "/exp",
+			href: "experience",
 		},
 		{
 			label: "/projects",
 			href: "projects",
-		}
+		},
+		{
+			label: "/blog",
+			href: "blog",
+		},
 	]
 	const footerLinks = [
 		{
@@ -39,7 +43,7 @@
 			{@render children?.()}
 		</div>
 		<Footer
-			description = "Copyright © 2025 Avafe"
+			description = "Copyleft 🄯 2025 Avafe"
 			links = {footerLinks}
 		/>
 	</div>
