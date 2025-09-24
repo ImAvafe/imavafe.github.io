@@ -1,0 +1,3 @@
+# Hi, I'm Ava!
+
+I'm a games & software developer, focused on programming and design. Much of my professional work is done on Roblox, though I also enjoy web technologies. My work is primarily housed under my solo studio, [Loneka](https://loneka.com). Its games have accrued over 45M sessions, and its open-source software powers billions each year.
