@@ -79,4 +79,9 @@
   --font-sans: "Bricolage Grotesque", sans-serif;
   --font-serif: "Source Serif 4", serif;
   --font-normal: 400;
+  --text-base: 20px;
+}
+
+.btn {
+  text-transform: none;
 }

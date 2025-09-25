@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { link } from "fs";
-
   export let description: string = "lorem ipsum";
   export let links: {
     label: string;

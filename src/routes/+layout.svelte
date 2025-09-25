@@ -10,12 +10,12 @@
 			href: "/",
 		},
 		{
-			label: "/exp",
-			href: "experience",
+			label: "/links",
+			href: "links",
 		},
 		{
-			label: "/projects",
-			href: "projects",
+			label: "/work",
+			href: "work",
 		},
 		{
 			label: "/blog",
@@ -24,8 +24,8 @@
 	]
 	const footerLinks = [
 		{
-			label: "GitHub",
-			href: "/go/github",
+			label: "Source",
+			href: "https://github.com/ImAvafe/imavafe.github.io",
 		}
 	]
 
