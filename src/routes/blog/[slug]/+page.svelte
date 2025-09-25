@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Article from '$lib/components/Article.svelte';
+
 	let { data } = $props()
 </script>
 
@@ -8,22 +10,18 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article>
-	<div class="flex flex-row flex-wrap justify-between">
-    <hgroup class="flex flex-col gap-2">
-      <h1 class="mb-0">{data.meta.title}</h1>
-      <p class="mt-0 font-semibold">{data.meta.date}</p>
-    </hgroup>
-    <img src={data.meta.icon} alt="Article icon." class="w-40 mt-0 mb-0 aspect-square">
-  </div>
+<div>
+	<Article
+		title={data.meta.title}
+		date={data.meta.date}
+		icon={data.meta.icon}
+		description={data.meta.description}
+		href="#"
+	/>
 
-	<div class="tags">
-		{#each data.meta.categories as category}
-			<span class="surface-4">&num;{category}</span>
-		{/each}
-	</div>
+	<div class="divider divider-neutral"></div>
 
-	<div class="prose">
+	<article>
 		<data.content />
-	</div>
-</article>
+	</article>
+</div>

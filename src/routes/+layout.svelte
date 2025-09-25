@@ -37,7 +37,7 @@
 </svelte:head>
 
 <div class="w-full flex flex-col items-center">
-	<div class="w-full max-w-4xl dark:outline-zinc-900 outline-2">
+	<div class="w-full max-w-4xl dark:outline-neutral outline-2">
 		<Navbar title="avafe.me" items={navItems} />
 		<div class="px-4 py-6">
 			{@render children?.()}
