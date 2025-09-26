@@ -11,15 +11,15 @@
 		},
 		{
 			label: "/links",
-			href: "links",
+			href: "/links",
 		},
 		{
 			label: "/work",
-			href: "work",
+			href: "/work",
 		},
 		{
 			label: "/blog",
-			href: "blog",
+			href: "/blog",
 		},
 	]
 	const footerLinks = [
