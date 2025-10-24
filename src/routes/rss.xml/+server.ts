@@ -1,6 +1,8 @@
 import type { Article } from '$lib/types';
 import { generateRssFeed } from 'feedsmith';
 
+export const prerender = true;
+
 function postToItem(post) {
 	console.log(post);
 

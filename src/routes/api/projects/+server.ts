@@ -1,6 +1,7 @@
 import type { Article as Project } from '$lib/types';
-
 import { json } from '@sveltejs/kit';
+
+export const prerender = true;
 
 async function getProjects() {
 	let projects: Project[] = [];
