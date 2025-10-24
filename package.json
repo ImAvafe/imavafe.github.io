@@ -39,6 +39,7 @@
 		"vite": "^7.1.12"
 	},
 	"dependencies": {
-		"daisyui": "^5.1.14"
+		"daisyui": "^5.1.14",
+		"feedsmith": "^2.2.1"
 	}
 }
