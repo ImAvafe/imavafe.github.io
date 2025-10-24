@@ -1,6 +1,6 @@
 export type Categories = 'sveltekit' | 'svelte';
 
-export type Post = {
+export type Article = {
 	title: string;
 	slug: string;
 	description: string;

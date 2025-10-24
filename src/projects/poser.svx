@@ -1,0 +1,12 @@
+---
+  title: Poser
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  date: '2023-04-14'
+  icon: 'https://picsum.photos/536/353'
+  categories:
+    - sveltekit
+    - svelte
+  published: true
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
