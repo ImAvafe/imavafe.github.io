@@ -7,27 +7,27 @@
 	const navItems = [
 		{
 			label: '/',
-			href: "/",
+			href: '/'
 		},
 		{
-			label: "/links",
-			href: "/links",
+			label: '/work',
+			href: '/work'
 		},
 		{
-			label: "/work",
-			href: "/work",
+			label: '/blog',
+			href: '/blog'
 		},
 		{
-			label: "/blog",
-			href: "/blog",
-		},
-	]
+			label: '/links',
+			href: '/links'
+		}
+	];
 	const footerLinks = [
 		{
-			label: "Source",
-			href: "https://github.com/ImAvafe/imavafe.github.io",
+			label: 'Source',
+			href: 'https://github.com/ImAvafe/imavafe.github.io'
 		}
-	]
+	];
 
 	let { children } = $props();
 </script>
@@ -36,16 +36,12 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<div class="w-full flex flex-col items-center">
-	<div class="w-full max-w-4xl dark:outline-neutral outline-2">
+<div class="flex w-full flex-col items-center">
+	<div class="w-full max-w-4xl outline-1 dark:outline-neutral">
 		<Navbar title="avafe.me" items={navItems} />
 		<div class="px-4 py-6">
 			{@render children?.()}
 		</div>
-		<Footer
-			description = "Copyleft 🄯 2025 Avafe"
-			links = {footerLinks}
-		/>
+		<Footer description="Copyleft 🄯 2025 Avafe" links={footerLinks} />
 	</div>
 </div>
-
