@@ -12,7 +12,7 @@
 	>
 		<img src={icon} alt="Article icon." class="aspect-square w-36" />
 		<article class="flex flex-col gap-2">
-			<h1 class="mt-0 mb-0 text-2xl font-bold text-zinc-300">{title}</h1>
+			<h1 class="mt-0 mb-0 text-2xl font-bold">{title}</h1>
 			<p class="mt-0 mb-0">{description}</p>
 			<p class="mt-0 mb-0 font-bold">{date}</p>
 		</article>
