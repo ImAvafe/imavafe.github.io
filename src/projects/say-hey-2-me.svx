@@ -1,0 +1,12 @@
+---
+title: sayhey2me
+description: "Link-in-bio for peer greetings"
+date: 2024-12-30
+icon: https://picsum.photos/536/354
+categories:
+- web
+---
+
+A cute little link-in-bio website made to encourage the simple act of greeting one another.
+
+Made in vanilla JS, HTML and CSS.

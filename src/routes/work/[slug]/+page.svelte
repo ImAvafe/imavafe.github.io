@@ -1,23 +1,34 @@
 <script lang="ts">
 	import Article from '$lib/components/Article.svelte';
 
-	let { data } = $props()
+	let { data } = $props();
 </script>
 
 <svelte:head>
-	<title>{data.meta.title}</title>
+	<title>{data.meta.title} - Avafe</title>
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
 <div>
-	<Article
-		title={data.meta.title}
-		date={data.meta.date}
-		icon={data.meta.icon}
-		description={data.meta.description}
-		href="#"
-	/>
+	<div class="flex flex-col gap-1">
+		<Article
+			title={data.meta.title}
+			date={data.meta.date}
+			icon={data.meta.icon}
+			description={data.meta.description}
+			href="#"
+		/>
+
+		<div class="stats w-full outline-1 outline-neutral">
+			{#each data.meta.metrics as metric (metric)}
+				<div class="stat place-items-center">
+					<div class="stat-title">{metric.name}</div>
+					<div class="stat-value">{metric.value}</div>
+				</div>
+			{/each}
+		</div>
+	</div>
 
 	<div class="divider divider-neutral"></div>
 

@@ -1,0 +1,13 @@
+---
+title: Firefight
+description: "A swipe-based Godot game about fighting fires"
+date: 2025-02-08
+icon: https://picsum.photos/536/354
+categories:
+- godot
+- game
+- web
+- mobile
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

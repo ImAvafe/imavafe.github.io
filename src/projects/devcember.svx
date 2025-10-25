@@ -1,0 +1,11 @@
+---
+title: Devcember
+description: "Month-long artistic game development event"
+date: 2023-12-1
+icon: https://picsum.photos/536/354
+categories:
+- art
+- event
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -1,0 +1,59 @@
+<script lang="ts">
+	import Article from '$lib/components/Article.svelte';
+
+	let { data } = $props();
+</script>
+
+<div>
+	<h1>Roles</h1>
+
+	<div class="overflow-x-auto">
+		<table class="table mt-0">
+			<thead>
+				<tr>
+					<th></th>
+					<th>Role</th>
+					<th>Company</th>
+					<th>Date</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th></th>
+					<td>Principal Frontend Developer</td>
+					<td>HD Admin</td>
+					<td>Feb 2025 — Present</td>
+				</tr>
+				<tr>
+					<th></th>
+					<td>Founder</td>
+					<td>Loneka</td>
+					<td>Nov 2021 — Present</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<a href="/resume">See resume</a>
+
+	<div class="divider"></div>
+
+	<h1>Projects</h1>
+
+	<section>
+		<ul class="list-none p-0">
+			{#each data.projects as project (project)}
+				<li class="">
+					<Article
+						title={project.title}
+						description={project.description}
+						date={project.date}
+						icon={project.icon}
+						href={`/work/${project.slug}`}
+					/>
+				</li>
+			{/each}
+		</ul>
+	</section>
+</div>

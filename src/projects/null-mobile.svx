@@ -1,0 +1,12 @@
+---
+title: null-remote
+description: "Remote webapp for race car hackathon"
+date: 2025-03-21
+icon: https://picsum.photos/536/354
+categories:
+- web
+- svelte
+- tailwind
+---
+
+The remote for my team's entry in a race car hackathon, built in 48 hours as a WebSocket-enabled SvelteKit web app running from the car's onboard Raspberry Pi.

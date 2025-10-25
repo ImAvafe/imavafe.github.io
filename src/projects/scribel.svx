@@ -1,0 +1,11 @@
+---
+title: Scribel
+description: "Peacefully collaborative writing game on Roblox"
+date: 2024-07-22
+icon: https://picsum.photos/536/354
+categories:
+- roblox
+- game
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
