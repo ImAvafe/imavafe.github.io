@@ -2,6 +2,19 @@
 	import Article from '$lib/components/Article.svelte';
 
 	let { data } = $props();
+
+	let test = $derived.by(() => {
+		let projects = data.projects;
+
+		projects.sort((projectA, projectB) => {
+			console.log(projectA.priority, projectB.priority);
+			return (projectA?.priority) < projectB?.priority;
+		});
+
+		return projects;
+	});
+
+	// console.log(test);
 </script>
 
 <div>
