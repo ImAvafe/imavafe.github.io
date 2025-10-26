@@ -2,6 +2,7 @@
 title: Kitty Dash
 description: "Platformer game where you play as a cat"
 date: 2023-10-03
+role: Creator
 icon: https://picsum.photos/536/354
 priority: 6
 categories:

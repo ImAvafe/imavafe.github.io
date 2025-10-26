@@ -1,14 +1,14 @@
 ---
-title: NeoHotbar
-description: "Modern, customizable hotbar for Roblox"
-date: 2022-09-20
-role: Creator
+title: HD Admin
+description: "Roblox's #1 administrative and monetization utility"
+date: 2025-02-00
+role: Frontend
 icon: https://picsum.photos/536/354
-priority: 5
+priority: 2
 categories:
-- roblox
-- tool
-- ui/ux
+- web
+- svelte
+- tailwind
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

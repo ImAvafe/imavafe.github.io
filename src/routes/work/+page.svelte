@@ -12,8 +12,6 @@
 
 		return projects;
 	});
-
-	console.log(sortedProjects);
 </script>
 
 <div>
@@ -23,22 +21,18 @@
 		<table class="table mt-0">
 			<thead>
 				<tr>
-					<th></th>
 					<th>Role</th>
 					<th>Company</th>
 					<th>Date</th>
-					<th></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<th></th>
 					<td>Principal Frontend Developer</td>
 					<td>HD Admin</td>
 					<td>Feb 2025 — Present</td>
 				</tr>
 				<tr>
-					<th></th>
 					<td>Founder</td>
 					<td>Loneka</td>
 					<td>Nov 2021 — Present</td>
@@ -53,8 +47,10 @@
 
 	<h1>Projects</h1>
 
+	<p>Ranked by favoritism.</p>
+
 	<section>
-		<ul class="list-none p-0">
+		<ul class="flex list-none flex-col gap-2 p-0">
 			{#each sortedProjects as project (project)}
 				<li class="">
 					<Article
@@ -63,6 +59,14 @@
 						date={project.date}
 						icon={project.icon}
 						href={`/work/${project.slug}`}
+						markers={[
+							'Tool',
+							new Date(project.date).toLocaleDateString('en-US', {
+								year: 'numeric',
+								month: 'short'
+							}),
+							project.role
+						]}
 					/>
 				</li>
 			{/each}

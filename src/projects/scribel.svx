@@ -2,6 +2,7 @@
 title: Scribel
 description: "Peacefully collaborative writing game on Roblox"
 date: 2024-07-22
+role: Creator
 icon: https://picsum.photos/536/354
 categories:
 - roblox

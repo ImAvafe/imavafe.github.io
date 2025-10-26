@@ -4,6 +4,7 @@
 	export let date: string;
 	export let icon: string;
 	export let href: string;
+	export let markers: string[];
 </script>
 
 <a {href} class="not-prose no-underline">
@@ -14,7 +15,11 @@
 		<article class="flex flex-col gap-2">
 			<h1 class="mt-0 mb-0 text-2xl font-bold">{title}</h1>
 			<p class="mt-0 mb-0">{description}</p>
-			<p class="mt-0 mb-0 font-bold">{date}</p>
+			<ul class="flex flex-row gap-4">
+				{#each markers as marker (marker)}
+					<li><p class="mt-0 mb-0 font-bold">{marker}</p></li>
+				{/each}
+			</ul>
 		</article>
 	</div>
 </a>

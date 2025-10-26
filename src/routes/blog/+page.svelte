@@ -8,7 +8,7 @@
 	<h1>Blog</h1>
 	<p>Opinions are representative of my employer.</p>
 	<section>
-		<ul class="list-none p-0">
+		<ul class="flex list-none flex-col gap-2 p-0">
 			{#each data.posts as post (post.slug)}
 				{#if post.published == true}
 					<li class="">

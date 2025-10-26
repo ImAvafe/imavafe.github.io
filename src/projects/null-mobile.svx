@@ -2,6 +2,7 @@
 title: null-remote
 description: "Remote webapp for race car hackathon"
 date: 2025-03-21
+role: Creator
 icon: https://picsum.photos/536/354
 categories:
 - web

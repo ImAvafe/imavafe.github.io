@@ -2,6 +2,7 @@
 title: Rorooms
 description: "Social framework for Roblox"
 date: 2022-11-07
+role: Creator
 icon: https://picsum.photos/536/354
 priority: 4
 categories:
