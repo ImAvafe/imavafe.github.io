@@ -3,18 +3,17 @@
 
 	let { data } = $props();
 
-	let test = $derived.by(() => {
+	let sortedProjects = $derived.by(() => {
 		let projects = data.projects;
 
 		projects.sort((projectA, projectB) => {
-			console.log(projectA.priority, projectB.priority);
-			return (projectA?.priority) < projectB?.priority;
+			return (projectA?.priority || 1000) - (projectB?.priority || 1000);
 		});
 
 		return projects;
 	});
 
-	// console.log(test);
+	console.log(sortedProjects);
 </script>
 
 <div>
@@ -56,7 +55,7 @@
 
 	<section>
 		<ul class="list-none p-0">
-			{#each data.projects as project (project)}
+			{#each sortedProjects as project (project)}
 				<li class="">
 					<Article
 						title={project.title}

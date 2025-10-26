@@ -3,6 +3,7 @@ title: NeoHotbar
 description: "Modern, customizable hotbar for Roblox"
 date: 2022-09-20
 icon: https://picsum.photos/536/354
+priority: 5
 categories:
 - roblox
 - tool

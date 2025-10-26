@@ -3,6 +3,7 @@ title: Firefight
 description: "A swipe-based Godot game about fighting fires"
 date: 2025-02-08
 icon: https://picsum.photos/536/354
+priority: 8
 categories:
 - godot
 - game

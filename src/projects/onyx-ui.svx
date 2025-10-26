@@ -3,6 +3,7 @@ title: OnyxUI
 description: "Quick, customizable components for Fusion"
 date: 2024-02-19
 icon: https://picsum.photos/536/354
+priority: 1
 categories:
 - roblox
 - tool

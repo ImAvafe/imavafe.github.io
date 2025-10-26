@@ -18,5 +18,6 @@ export type Project = {
 	icon: string;
 	categories: Categories[];
 	metrics: string[];
+	priority: number;
 	published: boolean;
 };

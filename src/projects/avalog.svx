@@ -3,6 +3,7 @@ title: Avalog
 description: "Easy, themable avatar catalog for Roblox"
 date: 2024-11-26
 icon: https://picsum.photos/536/354
+priority: 3
 categories:
 - roblox
 - tool

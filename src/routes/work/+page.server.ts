@@ -1,8 +1,8 @@
-import type { Article } from '$lib/types.js';
+import type { Project } from '$lib/types.js';
 
 export async function load({ fetch }) {
 	const response = await fetch('/api/projects');
-	const projects: Article[] = await response.json();
+	const projects: Project[] = await response.json();
 
 	return { projects: projects };
 }

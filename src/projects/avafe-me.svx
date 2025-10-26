@@ -3,6 +3,7 @@ title: avafe.me
 description: "My personal website"
 date: 2022-10-18
 icon: https://picsum.photos/536/354
+priority: 10001
 categories:
 - web
 - svelte
