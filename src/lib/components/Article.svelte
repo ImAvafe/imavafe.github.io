@@ -17,7 +17,7 @@
 			<p class="mt-0 mb-0">{description}</p>
 			<ul class="flex flex-row gap-4">
 				{#each markers as marker (marker)}
-					<li><p class="mt-0 mb-0 font-bold">{marker}</p></li>
+					<li><p class="font-semibold">{marker}</p></li>
 				{/each}
 			</ul>
 		</article>
