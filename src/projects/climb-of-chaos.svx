@@ -4,7 +4,7 @@ description: "Chaotic climbing game on Roblox"
 date: 2024-03-26
 type: Game
 role: Creator
-icon: https://picsum.photos/536/354
+icon: /src/lib/assets/img/projects/climb-of-chaos.png
 categories:
 - roblox
 - tool

@@ -4,7 +4,7 @@ description: "Modern, customizable hotbar for Roblox"
 date: 2022-09-20
 type: Tool
 role: Creator
-icon: https://picsum.photos/536/354
+icon: /src/lib/assets/img/projects/neohotbar.png
 priority: 5
 categories:
 - roblox

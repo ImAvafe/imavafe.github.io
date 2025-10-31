@@ -4,7 +4,7 @@ description: "Unopinionated utility modules for Roblox"
 date: 2022-11-28
 type: Library
 role: Creator
-icon: https://picsum.photos/536/354
+icon: /src/lib/assets/img/projects/moonlets.png
 priority: 7
 categories:
 - roblox

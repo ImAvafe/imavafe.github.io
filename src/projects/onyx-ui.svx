@@ -4,7 +4,7 @@ description: "Quick, customizable components for Fusion"
 date: 2024-02-19
 type: Library
 role: Creator
-icon: https://picsum.photos/536/354
+icon: /src/lib/assets/img/projects/onyx-ui.png
 priority: 1
 categories:
 - roblox

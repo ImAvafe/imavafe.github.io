@@ -4,7 +4,7 @@ description: "My personal website"
 date: 2022-10-18
 type: Website
 role: Creator
-icon: https://picsum.photos/536/354
+icon: /src/lib/assets/img/projects/avafe-me.png
 priority: 10001
 categories:
 - web

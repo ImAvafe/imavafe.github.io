@@ -4,7 +4,7 @@ description: "A swipe-based Godot game about fighting fires"
 date: 2025-02-08
 type: Game
 role: Creator
-icon: https://picsum.photos/536/354
+icon: /src/lib/assets/img/projects/firefight.png
 priority: 8
 categories:
 - godot

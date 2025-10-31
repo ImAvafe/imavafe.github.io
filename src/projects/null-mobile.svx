@@ -4,7 +4,7 @@ description: "Remote webapp for race car hackathon"
 date: 2025-03-21
 type: App
 role: Creator
-icon: https://picsum.photos/536/354
+icon: /src/lib/assets/img/projects/null-mobile.png
 categories:
 - web
 - svelte

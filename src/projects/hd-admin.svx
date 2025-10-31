@@ -4,7 +4,7 @@ description: "Roblox's #1 administrative and monetization utility"
 date: 2025-02-00
 type: App
 role: Software Engineer
-icon: https://picsum.photos/536/354
+icon: /src/lib/assets/img/projects/hd-admin.png
 priority: 2
 categories:
 - web

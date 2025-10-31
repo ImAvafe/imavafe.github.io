@@ -4,7 +4,7 @@ description: "Social framework for Roblox"
 date: 2022-11-07
 role: Creator
 type: Framework
-icon: https://picsum.photos/536/354
+icon: /src/lib/assets/img/projects/rorooms.png
 priority: 4
 categories:
 - roblox

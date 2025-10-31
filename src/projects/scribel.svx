@@ -4,7 +4,7 @@ description: "Peacefully collaborative writing game on Roblox"
 date: 2024-07-22
 type: Game
 role: Creator
-icon: https://picsum.photos/536/354
+icon: /src/lib/assets/img/projects/scribel.png
 categories:
 - roblox
 - game

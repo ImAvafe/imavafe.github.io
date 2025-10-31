@@ -4,7 +4,7 @@ description: "Easy, themable avatar catalog for Roblox"
 date: 2024-11-26
 type: App
 role: Creator
-icon: https://picsum.photos/536/354
+icon: /src/lib/assets/img/projects/avalog.png
 priority: 3
 categories:
 - roblox
