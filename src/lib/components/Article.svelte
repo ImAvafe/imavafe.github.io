@@ -1,7 +1,6 @@
 <script lang="ts">
 	export let title: string;
 	export let description: string;
-	export let date: string;
 	export let icon: string;
 	export let href: string;
 	export let markers: string[];

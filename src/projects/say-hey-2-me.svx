@@ -4,7 +4,7 @@ description: "Link-in-bio for peer greetings"
 date: 2024-12-30
 type: Website
 role: Creator
-icon: /src/lib/assets/img/projects/sayhey2me.png
+icon: /src/lib/assets/img/projects/say-hey-2-me.png
 categories:
 - web
 ---
