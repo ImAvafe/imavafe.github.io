@@ -2,6 +2,7 @@
 title: Firefight
 description: "A swipe-based Godot game about fighting fires"
 date: 2025-02-08
+href: https://github.com/ImAvafe/godot-firefight
 type: Game
 role: Creator
 icon: /src/lib/assets/img/projects/firefight.png

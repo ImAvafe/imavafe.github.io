@@ -14,20 +14,27 @@
 	<div class="flex flex-col gap-1">
 		<Article
 			title={data.meta.title}
-			date={data.meta.date}
 			icon={data.meta.icon}
 			description={data.meta.description}
 			href="#"
 		/>
 
-		<div class="stats w-full outline-1 outline-neutral">
-			{#each data.meta.metrics as metric (metric)}
-				<div class="stat place-items-center">
-					<div class="stat-title">{metric.name}</div>
-					<div class="stat-value">{metric.value}</div>
-				</div>
-			{/each}
-		</div>
+		{#if data.meta.metrics}
+			<div class="stats w-full outline-1 outline-neutral">
+				{#each data.meta.metrics as metric (metric)}
+					<div class="stat place-items-center">
+						<div class="stat-title">{metric.name}</div>
+						<div class="stat-value">{metric.value}</div>
+					</div>
+				{/each}
+			</div>
+		{/if}
+
+		{#if data.meta.href}
+			<div class="w-full outline-1 outline-neutral">
+				<a href={data.meta.href} target="_blank" class="btn w-full btn-lg">Open Site</a>
+			</div>
+		{/if}
 	</div>
 
 	<div class="divider divider-neutral"></div>

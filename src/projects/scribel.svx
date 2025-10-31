@@ -2,6 +2,7 @@
 title: Scribel
 description: "Peacefully collaborative writing game on Roblox"
 date: 2024-07-22
+href: http://roblox.com/games/18609236852
 type: Game
 role: Creator
 icon: /src/lib/assets/img/projects/scribel.png

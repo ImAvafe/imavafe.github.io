@@ -2,6 +2,7 @@
 title: sayhey2me
 description: "Link-in-bio for peer greetings"
 date: 2024-12-30
+href: https://sayhey2.me/
 type: Website
 role: Creator
 icon: /src/lib/assets/img/projects/say-hey-2-me.png

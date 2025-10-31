@@ -2,6 +2,7 @@
 title: NeoHotbar
 description: "Modern, customizable hotbar for Roblox"
 date: 2022-09-20
+href: https://loneka.com/neohotbar/
 type: Tool
 role: Creator
 icon: /src/lib/assets/img/projects/neohotbar.png

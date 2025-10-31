@@ -4,6 +4,7 @@ description: "Quick, customizable components for Fusion"
 date: 2024-02-19
 type: Library
 role: Creator
+href: https://loneka.com/onyx-ui
 icon: /src/lib/assets/img/projects/onyx-ui.png
 priority: 1
 categories:
