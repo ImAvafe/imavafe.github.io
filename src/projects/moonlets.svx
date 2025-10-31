@@ -2,6 +2,7 @@
 title: Moonlets
 description: "Unopinionated utility modules for Roblox"
 date: 2022-11-28
+type: Library
 role: Creator
 icon: https://picsum.photos/536/354
 priority: 7

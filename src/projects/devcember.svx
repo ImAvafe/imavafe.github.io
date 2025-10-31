@@ -2,6 +2,7 @@
 title: Devcember
 description: "Month-long artistic game development event"
 date: 2023-12-01
+type: Event
 role: Organizer
 icon: https://picsum.photos/536/354
 categories:

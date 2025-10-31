@@ -2,7 +2,8 @@
 title: HD Admin
 description: "Roblox's #1 administrative and monetization utility"
 date: 2025-02-00
-role: Frontend
+type: App
+role: Software Engineer
 icon: https://picsum.photos/536/354
 priority: 2
 categories:

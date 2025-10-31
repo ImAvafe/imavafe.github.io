@@ -2,6 +2,7 @@
 title: Climb of Chaos
 description: "Chaotic climbing game on Roblox"
 date: 2024-03-26
+type: Game
 role: Creator
 icon: https://picsum.photos/536/354
 categories:

@@ -2,6 +2,7 @@
 title: avafe.me
 description: "My personal website"
 date: 2022-10-18
+type: Website
 role: Creator
 icon: https://picsum.photos/536/354
 priority: 10001

@@ -2,6 +2,7 @@
 title: sayhey2me
 description: "Link-in-bio for peer greetings"
 date: 2024-12-30
+type: Website
 role: Creator
 icon: https://picsum.photos/536/354
 categories:

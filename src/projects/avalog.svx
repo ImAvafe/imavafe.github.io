@@ -2,6 +2,7 @@
 title: Avalog
 description: "Easy, themable avatar catalog for Roblox"
 date: 2024-11-26
+type: App
 role: Creator
 icon: https://picsum.photos/536/354
 priority: 3
