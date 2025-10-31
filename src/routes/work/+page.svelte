@@ -28,7 +28,7 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>Principal Frontend Developer</td>
+					<td>Software Engineer</td>
 					<td>HD Admin</td>
 					<td>Feb 2025 — Present</td>
 				</tr>
