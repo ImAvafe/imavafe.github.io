@@ -13,7 +13,9 @@ export type Article = {
 export type Project = {
 	title: string;
 	slug: string;
-	tagline: string;
+	description: string;
+	type: string;
+	role: string;
 	date: string;
 	icon: string;
 	categories: Categories[];

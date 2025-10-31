@@ -4,8 +4,6 @@ import { generateRssFeed } from 'feedsmith';
 export const prerender = true;
 
 function postToItem(post) {
-	console.log(post);
-
 	return {
 		title: post.title,
 		description: post.description,

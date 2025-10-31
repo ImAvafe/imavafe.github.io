@@ -60,7 +60,7 @@
 						icon={project.icon}
 						href={`/work/${project.slug}`}
 						markers={[
-							'Tool',
+							project.type,
 							new Date(project.date).toLocaleDateString('en-US', {
 								year: 'numeric',
 								month: 'short'

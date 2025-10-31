@@ -26,6 +26,14 @@
 							date={post.date}
 							icon={post.icon}
 							href={`/blog/${post.slug}`}
+							markers={[
+								new Date(post.date).toLocaleDateString('en-US', {
+									year: 'numeric',
+									month: 'short',
+									day: 'numeric'
+								}),
+								post.categories.toString().replaceAll(',', ', ')
+							]}
 						/>
 					</li>
 				{/if}

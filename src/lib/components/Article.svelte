@@ -14,10 +14,13 @@
 		<img src={icon} alt="Article icon." class="aspect-square w-36" />
 		<article class="flex flex-col gap-2">
 			<h1 class="mt-0 mb-0 text-2xl font-bold">{title}</h1>
-			<p class="mt-0 mb-0">{description}</p>
-			<ul class="flex flex-row gap-4">
-				{#each markers as marker (marker)}
-					<li><p class="font-semibold">{marker}</p></li>
+			<p class="mt-0 mb-0 flex-1">{description}</p>
+			<ul class="flex flex-row">
+				{#each markers as marker, index (index)}
+					<li class="inline-block"><p class="font-semibold">{marker}</p></li>
+					{#if index < markers.length - 1}
+						<span class="mr-2 ml-2">&#8226;</span>
+					{/if}
 				{/each}
 			</ul>
 		</article>
