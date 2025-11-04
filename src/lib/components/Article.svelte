@@ -10,7 +10,7 @@
 	<div
 		class="card flex flex-row gap-6 p-4 outline-1 outline-neutral transition-colors hover:outline-primary"
 	>
-		<img src={icon} alt="Article icon." class="icon aspect-square w-36" />
+		<img src={icon} alt="Article icon." class="icon aspect-square h-36 w-36" />
 		<article class="flex flex-col gap-2">
 			<h1 class="mt-0 mb-0 text-2xl font-bold">{title}</h1>
 			<p class="mt-0 mb-0 flex-1">{description}</p>

@@ -41,7 +41,7 @@
 		</table>
 	</div>
 
-	<a href="/resume">See resume</a>
+	<!-- <a href="/resume">See resume</a> -->
 
 	<div class="divider"></div>
 

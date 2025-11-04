@@ -12,4 +12,8 @@ categories:
 - tool
 - ui/ux
 - commerce
+metrics:
+- name: Post-adoption Revenue
+  value: 400%
+  clarifier: Up To*
 ---

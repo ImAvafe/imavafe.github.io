@@ -1,5 +1,5 @@
 # Hi, I'm Ava!
 
-I'm a games & software developer, focused on programming and design. Much of my work is housed under my studio, [Loneka](https://loneka.com), which produces leading tools for game developers, alongside in-house titles.
+I'm a games and software developer, focused on programming, design, and systems. Much of my work is housed under my studio, [Loneka](https://loneka.com), which produces leading tools for game developers, alongside in-house titles.
 
-When I'm not working or studying, I love spending time with friends, walking, and reading! I also enjoy experimenting with web and app technologies, and rewriting this website whenever I get bored of it. *(oops)*
+When I'm not working or studying, I love spending time with friends, walking, and going out to events! I also enjoy thinking about design and tooling in a broader sense, and how that shapes aspects of the world around us.

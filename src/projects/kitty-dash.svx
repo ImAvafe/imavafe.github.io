@@ -10,4 +10,11 @@ priority: 7
 categories:
 - roblox
 - game
+metrics:
+- name: Total Sessions
+  value: 4.4M
+- name: Total Hours
+  value: 473k
+- name: Favorites
+  value: 22k
 ---

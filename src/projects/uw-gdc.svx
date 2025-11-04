@@ -6,7 +6,7 @@ href: https://uwgamedevclub.itch.io/
 type: Organization
 role: Media Executive
 icon: /src/lib/assets/img/projects/uw-gdc.png
-priority: 6
+priority: 5
 metrics:
 - name: Club in Canada
   value: "#1"

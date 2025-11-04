@@ -25,6 +25,7 @@
 					<div class="stat place-items-center">
 						<div class="stat-title">{metric.name}</div>
 						<div class="stat-value">{metric.value}</div>
+						<div class="stat-desc">{metric.clarifier}</div>
 					</div>
 				{/each}
 			</div>

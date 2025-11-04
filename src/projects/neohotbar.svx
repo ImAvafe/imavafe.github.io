@@ -6,7 +6,7 @@ href: https://loneka.com/neohotbar/
 type: Tool
 role: Creator
 icon: /src/lib/assets/img/projects/neohotbar.png
-priority: 5
+priority: 6
 categories:
 - roblox
 - tool

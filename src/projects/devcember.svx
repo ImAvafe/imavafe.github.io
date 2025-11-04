@@ -8,4 +8,9 @@ icon: /src/lib/assets/img/projects/devcember.png
 categories:
 - art
 - event
+metrics:
+- name: Submissions
+  value: 69
+- name: Community Members
+  value: 113
 ---
