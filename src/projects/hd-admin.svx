@@ -1,7 +1,7 @@
 ---
 title: HD Admin
-description: "Roblox's #1 administrative and monetization utility"
-date: 2025-02-00
+description: "Gaming's #1 administrative monetization utility"
+date: 2025-2-1
 href: https://create.roblox.com/store/asset/857927023
 type: App
 role: Software Engineer
@@ -11,6 +11,11 @@ categories:
 - web
 - svelte
 - tailwind
+metrics:
+- name: Total Sessions
+  value: 100B
+- name: Peak Concurrent Sessions
+  value: 25M
+- name: Satisfaction
+  value: 93%
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

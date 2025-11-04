@@ -6,10 +6,8 @@ href: https://www.roblox.com/games/14958801951
 type: Game
 role: Creator
 icon: /src/lib/assets/img/projects/kitty-dash.png
-priority: 6
+priority: 7
 categories:
 - roblox
 - game
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

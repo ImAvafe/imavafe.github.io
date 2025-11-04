@@ -45,7 +45,7 @@
 
 	<div class="divider"></div>
 
-	<h1>Projects</h1>
+	<h1>Work</h1>
 
 	<p>Ranked by favoritism.</p>
 

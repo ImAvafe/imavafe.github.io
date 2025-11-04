@@ -1,0 +1,17 @@
+---
+title: UW Game Dev Club
+description: "The University of Waterloo's game development club, home of the largest student-led game jams in Canada."
+date: 2025-9-1
+href: https://uwgamedevclub.itch.io/
+type: Organization
+role: Media Executive
+icon: /src/lib/assets/img/projects/uw-gdc.png
+priority: 6
+metrics:
+- name: Club in Canada
+  value: "#1"
+- name: Game Jam Submissions
+  value: 162
+- name: Members
+  value: 2k
+---

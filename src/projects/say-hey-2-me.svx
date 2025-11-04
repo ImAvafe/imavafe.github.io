@@ -9,7 +9,3 @@ icon: /src/lib/assets/img/projects/say-hey-2-me.png
 categories:
 - web
 ---
-
-A cute little link-in-bio website made to encourage the simple act of greeting one another.
-
-Made in vanilla JS, HTML and CSS.

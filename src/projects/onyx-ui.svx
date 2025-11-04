@@ -1,7 +1,7 @@
 ---
 title: OnyxUI
-description: "Quick, customizable components for Fusion"
-date: 2024-02-19
+description: "Quick, customizable UI for Fusion"
+date: 2024-2-19
 type: Library
 role: Creator
 href: https://loneka.com/onyx-ui
@@ -12,5 +12,3 @@ categories:
 - tool
 - ui/ux
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
