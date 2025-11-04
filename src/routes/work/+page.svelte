@@ -14,6 +14,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Work - Avafe</title>
+</svelte:head>
+
 <div>
 	<h1>Roles</h1>
 

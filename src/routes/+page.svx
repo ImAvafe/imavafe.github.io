@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Avafe</title>
+</svelte:head>
+
 # Hi, I'm Ava!
 
 I'm a games and software developer, focused on programming, design, and systems. Much of my work is housed under my studio, [Loneka](https://loneka.com), which produces leading tools for game developers, alongside in-house titles.

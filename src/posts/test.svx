@@ -2,9 +2,6 @@
 title: Test Post
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 date: 2023-04-14
-categories:
-- svelte
-- sveltekit
 published: true
 ---
 

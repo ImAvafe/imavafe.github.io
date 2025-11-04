@@ -17,6 +17,15 @@
 			icon={data.meta.icon}
 			description={data.meta.description}
 			href="#"
+			markers={[
+				data.meta.type,
+				new Date(data.meta.date).toLocaleDateString('en-US', {
+					year: 'numeric',
+					month: 'short'
+				}),
+				data.meta.role,
+				data.meta.categories.toString().replaceAll(',', ', ')
+			]}
 		/>
 
 		{#if data.meta.metrics}

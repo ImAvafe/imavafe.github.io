@@ -34,6 +34,8 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<title>Avafe</title>
+	<meta property="og:title" content="Avafe" />
 </svelte:head>
 
 <div class="flex w-full flex-col items-center">

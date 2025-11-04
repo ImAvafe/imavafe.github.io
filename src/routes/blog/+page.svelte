@@ -4,6 +4,10 @@
 	let { data } = $props();
 </script>
 
+<svelte:head>
+	<title>Blog - Avafe</title>
+</svelte:head>
+
 <div>
 	<h1>Blog</h1>
 
@@ -23,7 +27,6 @@
 						<Article
 							title={post.title}
 							description={post.description}
-							date={post.date}
 							icon={post.icon}
 							href={`/blog/${post.slug}`}
 							markers={[
@@ -32,7 +35,7 @@
 									month: 'short',
 									day: 'numeric'
 								}),
-								post.categories.toString().replaceAll(',', ', ')
+								(post.categories || []).toString().replaceAll(',', ', ')
 							]}
 						/>
 					</li>

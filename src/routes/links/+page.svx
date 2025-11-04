@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Links - Avafe</title>
+</svelte:head>
+
 # Links
 
 ## Contact
