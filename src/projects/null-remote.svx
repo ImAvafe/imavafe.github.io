@@ -5,7 +5,7 @@ date: 2025-03-21
 href: https://github.com/ImAvafe/null-remote
 type: App
 role: Creator
-icon: /src/lib/assets/img/projects/null-remote.png
+icon: /img/projects/null-remote.png
 categories:
 - web
 - svelte

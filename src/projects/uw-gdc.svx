@@ -5,7 +5,7 @@ date: 2025-9-1
 href: https://uwgamedevclub.itch.io/
 type: Organization
 role: Media Executive
-icon: /src/lib/assets/img/projects/uw-gdc.png
+icon: /img/projects/uw-gdc.png
 priority: 5
 metrics:
 - name: Club in Canada

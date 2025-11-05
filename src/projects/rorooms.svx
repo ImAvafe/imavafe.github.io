@@ -5,7 +5,7 @@ date: 2022-11-07
 href: https://docs.rorooms.com/
 role: Creator
 type: Framework
-icon: /src/lib/assets/img/projects/rorooms.png
+icon: /img/projects/rorooms.png
 priority: 4
 categories:
 - roblox

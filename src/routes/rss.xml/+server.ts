@@ -9,7 +9,7 @@ function postToItem(post) {
 		description: post.description,
 		pubDate: new Date(post.date),
 		icon: post.icon,
-		categories: post.categories.map((category) => {
+		categories: (post.categories || []).map((category) => {
 			return { name: category };
 		}),
 		media: {

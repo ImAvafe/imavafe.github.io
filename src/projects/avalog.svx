@@ -5,7 +5,7 @@ date: 2024-11-26
 href: https://loneka.com/avalog
 type: App
 role: Creator
-icon: /src/lib/assets/img/projects/avalog.png
+icon: /img/projects/avalog.png
 priority: 3
 categories:
 - roblox

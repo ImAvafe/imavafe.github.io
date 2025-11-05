@@ -5,7 +5,7 @@ date: 2022-10-18
 href: https://avafe.me
 type: Website
 role: Creator
-icon: /src/lib/assets/img/projects/avafe-me.png
+icon: /img/projects/avafe-me.png
 priority: 10001
 categories:
 - web

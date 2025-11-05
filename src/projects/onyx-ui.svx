@@ -5,7 +5,7 @@ date: 2024-2-19
 type: Library
 role: Creator
 href: https://loneka.com/onyx-ui
-icon: /src/lib/assets/img/projects/onyx-ui.png
+icon: "/img/projects/onyx-ui.png"
 priority: 1
 categories:
 - roblox

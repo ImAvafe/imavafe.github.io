@@ -24,7 +24,7 @@
 					month: 'short'
 				}),
 				data.meta.role,
-				data.meta.categories.toString().replaceAll(',', ', ')
+				(data.meta.categories || []).toString().replaceAll(',', ', ')
 			]}
 		/>
 
