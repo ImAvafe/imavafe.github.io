@@ -37,7 +37,7 @@
 	<title>Avafe</title>
 	<meta property="og:title" content="Avafe" />
 	<meta property="og:description" content="Games & Software Developer" />
-	<meta property="og:image" content="/img/og-image.png" />
+	<meta property="og:image" content="https://avafe.me/img/og-image.png" />
 </svelte:head>
 
 <div class="flex w-full flex-col items-center">
