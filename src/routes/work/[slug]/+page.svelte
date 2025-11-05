@@ -30,7 +30,7 @@
 		/>
 
 		{#if data.meta.metrics}
-			<div class="stats w-full outline-1 outline-neutral">
+			<div class="stats flex flex-col outline-1 outline-neutral sm:flex-row">
 				{#each data.meta.metrics as metric (metric)}
 					<div class="stat place-items-center">
 						<div class="stat-title">{metric.name}</div>

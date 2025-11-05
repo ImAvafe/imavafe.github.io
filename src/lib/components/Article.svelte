@@ -8,13 +8,17 @@
 
 <a {href} class="not-prose no-underline">
 	<div
-		class="card flex flex-row gap-6 p-4 outline-1 outline-neutral transition-colors hover:outline-primary"
+		class="card flex flex-col gap-6 p-4 outline-1 outline-neutral transition-colors hover:outline-primary sm:flex-row"
 	>
-		<img src={icon} alt="Article icon." class="icon aspect-square h-36 w-36" />
-		<article class="flex flex-col gap-2">
+		<img
+			src={icon}
+			alt="Article icon."
+			class="icon aspect-square max-h-24 max-w-24 sm:max-h-36 sm:max-w-36"
+		/>
+		<div class="flex flex-col flex-wrap gap-2">
 			<h1 class="mt-0 mb-0 text-2xl font-bold">{title}</h1>
 			<p class="mt-0 mb-0 flex-1">{description}</p>
-			<ul class="flex flex-row">
+			<ul class="flex flex-row flex-wrap">
 				{#each markers as marker, index (index)}
 					<li class="inline-block"><p class="font-semibold">{marker}</p></li>
 					{#if index < markers.length - 1}
@@ -22,7 +26,7 @@
 					{/if}
 				{/each}
 			</ul>
-		</article>
+		</div>
 	</div>
 </a>
 
