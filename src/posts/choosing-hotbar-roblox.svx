@@ -3,7 +3,10 @@ title: Choosing a Hotbar For Your Roblox Game
 description: A comparison of Roblox hotbar systems.
 icon: /img/projects/neohotbar.png
 date: 2025-05-28
-categories: roblox, neohotbar
+categories:
+- roblox
+- neohotbar
+- guide
 published: true
 ---
 

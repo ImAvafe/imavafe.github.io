@@ -3,7 +3,10 @@ title: Rorooms 0.6.2
 description:
 icon: /img/projects/rorooms.png
 date: 2025-07-11
-categories: roblox, rorooms, update
+categories:
+- roblox
+- rorooms
+- update
 published: true
 ---
 

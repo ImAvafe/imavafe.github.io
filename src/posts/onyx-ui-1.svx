@@ -3,7 +3,11 @@ title: OnyxUI 1.0
 description:
 icon: /img/projects/onyx-ui.png
 date: 2025-07-25
-categories: roblox, fusion, onyx-ui, update
+categories:
+- roblox
+- fusion
+- onyx-ui
+- update
 published: true
 ---
 

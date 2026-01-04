@@ -3,7 +3,9 @@ title: My First Hackathon
 description: JavaScript is hot ass
 icon: /img/projects/null-remote.png
 date: 2025-06-04
-categories: svelte, web
+categories:
+- svelte
+- web
 published: true
 ---
 

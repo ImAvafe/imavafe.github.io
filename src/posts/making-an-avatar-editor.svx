@@ -3,7 +3,10 @@ title: Making an Avatar Editor
 description:
 icon: /img/projects/avalog.png
 date: 2025-08-14
-categories: roblox, fusion, onyx-ui
+categories:
+- roblox
+- fusion
+- avalog
 published: true
 ---
 
