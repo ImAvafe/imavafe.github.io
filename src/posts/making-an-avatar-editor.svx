@@ -1,0 +1,34 @@
+---
+title: Making an Avatar Editor
+description:
+icon: /img/projects/avalog.png
+date: 2025-08-14
+categories: roblox, fusion, onyx-ui
+published: true
+---
+
+> This article details the motivation and development behind [Avalog](https://loneka.com/avalog/), a simple, themeable avatar catalog. If you're looking for installation options, please refer to [this page](https://loneka.com/avalog/docs/intro#installation-).
+
+# Introduction
+
+During the development of my social toolkit [Rorooms](https://rorooms.com), the need for an avatar editor became more and more apparent as I worked. As an open-source fanatic, I began perusing my options… only to find that they were actually quite limited.
+
+The only major option at the time was [Popmall](https://devforum.roblox.com/t/new-shops-popmall-%E2%80%93-free-catalog-avatar-editor/1907145), which, while provided much of the core functionality I sought, still fell short in various ways. Before installing Popmall, I had to sign up for a Super Biz account and provide it the account key, which I would enter yet again for the editor itself to function. Upon launching, I was greeted with various brands and sponsorships Popmall had arranged with their partners. Between the reasons listed above and a lack of theming capabilities, it wasn't the right fit for me.
+
+![Popmall](/img/articles/making-an-avatar-editor/popmall.png)
+
+# Development
+
+Alright, I was going to do it myself. Like in any proper codebase, I started by carefully choosing my tools and patterns. On the tooling side of things: [Fusion](https://elttob.uk/Fusion/0.3/) and [OnyxUI](https://loneka.com/onyx-ui) drive the UI, providing seamless state management; [Skilift](https://alicesaidhi.github.io/skilift/) handles data storage; [Zap](https://zap.redblox.dev/) does the networking; and a handful of other libraries simplify various other patterns. In terms of the software architecture itself, it's organized with a modular folder-by-feature setup, much of which is empowered by my in-house [Moonlets](https://github.com/loneka/moonlets) packages.
+
+After sorting that out, I got to work on the interface itself, heavily referencing Roblox's own avatar editor in consideration of having a neutral, mindful default style. As time progressed, so did Avalog and its feature set. While only initially supporting basic catalog toggling, it expanded support for various other item types, categories, and viewing modes.
+
+![Versions](/img/articles/making-an-avatar-editor/versions.png)
+
+# Release
+
+After a handful of hiccups and breaks in development, Avalog is released and ready for installation! Despite the belated release, it's already accrued millions of daily sessions across the games using it. It's still missing a few features, but I'm happy with the state of it.
+
+![Avalog](/img/articles/making-an-avatar-editor/avalog.png)
+
+<https://loneka.com/avalog/>

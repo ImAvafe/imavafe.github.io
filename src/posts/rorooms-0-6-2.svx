@@ -1,0 +1,28 @@
+---
+title: Rorooms 0.6.2
+description:
+icon: /img/projects/rorooms.png
+date: 2025-07-11
+categories: roblox, rorooms, update
+published: true
+---
+
+This latest update shines new light onto Rorooms with UI theming, all-new documentation, and branding enhancements.
+
+# Branding ✨
+
+Rorooms' branding has been improved for clarity, recognition, and style.
+
+![Banner](/img/articles/rorooms-0-6-2/banner.png)
+
+# Documentation 📄
+
+The documentation has been completely redone to better explain concepts, provide more details, and better match [Loneka Suite](https://suite.loneka.com)'s styling.
+
+![Docs](/img/articles/rorooms-0-6-2/docs.png)
+
+# Theming 🎨
+
+Powered by [OnyxUI](https://loneka.com/onyx-ui/), Rorooms now supports a slew of UI theming properties, empowering you to match your world's unique mood and style.
+
+![Theming](/img/articles/rorooms-0-6-2/theming.png)

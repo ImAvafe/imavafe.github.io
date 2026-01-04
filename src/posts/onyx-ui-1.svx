@@ -1,0 +1,86 @@
+---
+title: OnyxUI 1.0
+description:
+icon: /img/projects/onyx-ui.png
+date: 2025-07-25
+categories: roblox, fusion, onyx-ui, update
+published: true
+---
+
+After months of iteration and development across an array of codebases, OnyxUI is — at least for now — finally settling on some core design patterns. From novel styling methods, to more featureful theming and overhauled docs, there is *plenty* for you to take advantage of.
+
+# Styling 🖌️
+
+## Nested props 🪹
+
+Since its creation, OnyxUI has struggled between ease of use and flexibility. And with the new nested styling props, you no longer have to make that tradeoff with your element styling.
+
+```lua
+Scope:Text {
+	Text = "Woah we have some text here..",
+	Stroke = {
+		Thickness = Theme.StrokeThickness["1"],
+		Color = Theme.Colors.Neutral.Main,
+		Gradient = {
+			Rotation = 90,
+		},
+	},
+}
+```
+
+With this new approach, styling props are now organized into their respective dictionaries. And much more importantly, you can *nest select styles within one another*. This unlocks entire stylings that weren't previously possible, and lets you do it with less keystrokes.
+
+## Unit utils 🔧
+
+I was sick of writing out lengthy `Computed`s to convert simple values into `UDim`s or `UDim2`s. And now, OnyxUI supports shorthands for a [handful of data types](https://loneka.com/onyx-ui/api/Util#UDim).
+
+```lua
+return function(Scope, Props)
+  local Scope = Fusion.innerScope(Fusion, OnyxUI.Util)
+  local Theme = Themer.Theme:now()
+
+  Scope:Card {
+    Padding = {
+      All = Scope:UDim(0, Theme.Padding["2"])
+    }
+  }
+end
+```
+
+# Theming 🎨
+
+## Stroke emphasis 🔳
+
+A handful of components now render strokes — often with depth — by default. This can be modified using the `Theme.StrokeEmphasis` property.
+
+![Stroke emphasis](/img/articles/onyx-ui-1/stroke-emphasis.png)
+
+## Distinct paddings 🎚️
+
+OnyxUI's theming system now separates paddings into three distinct properties: `Padding`, `Spacing` and `Sizing`. `Padding` is relevant to the insides of an element, `Spacing` for creating gaps between elements, and `Sizing` for hard-set sizings like menus.
+
+# Components ✅
+
+## `Tabs` 📑
+
+![Tabs](/img/articles/onyx-ui-1/tabs.png)
+
+## `IconSwap` ⏯️
+
+![Icon swap](/img/articles/onyx-ui-1/icon-swap.mp4)
+
+## Exported props ⤴️
+
+Each component's props are now exported from the top-level module, allowing you to reference them from your own code with ease.
+
+## Cleaning 🧹
+
+`NumberSpinner`, `SwitchGroup`, and `MenuFrame` have been deleted entirely, because they didn't live up to OnyxUI's standards, or didn't serve enough of a purpose to justify their existence.
+
+Additionally, many components have been renamed. I suggest looking through the [list of components](https://loneka.com/onyx-ui/api/Base) for yourself.
+
+# Documentation 📄
+
+OnyxUI's documentation has been heavily redone with explainers, images, and a new sheet of polish, so you can focus on learning and educating your team.
+
+![Docs](/img/articles/onyx-ui-1/docs.png)

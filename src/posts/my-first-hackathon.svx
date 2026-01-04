@@ -1,0 +1,36 @@
+---
+title: My First Hackathon
+description: JavaScript is hot ass
+icon: /img/projects/null-remote.png
+date: 2025-06-04
+categories: svelte, web
+published: true
+---
+
+I'm just minding my own business working on the new [HD Admin](https://avafe.me/work/hd-admin) frontend, when a friend walks up to invite me - someone with 0 engineering experience - to join him for an all-recycled race car hackathon. And well, wouldn't that just be so funny?
+
+I come early, before the venue fills with the stench of dozens of STEM students. We find each other and form our team, settling at a worktable as we think up ideas for our car.
+
+![Venue](/img/articles/my-first-hackathon/c213b60d-2a62-4239-84d7-66eebfc37769_1600x1200.jpg)
+
+As the organizers wrangle their event, we all get together for a group orientation. Among the winners' categories are: "chonk," Barbie, autonomy, and *biggest loser*. Keep that last one in mind.
+
+Over the next several hours, our team gravitates towards our own roles, mine being creating the remote. I decided to host a SvelteKit website from an onboard Raspberry Pi, which would then directly control the motors via an NPM package.
+
+![Raspberry Pi](/img/articles/my-first-hackathon/74d13280-e5e0-43b1-8191-dcb9dc4e1f31_1600x1200.jpg)
+
+It was not an educated decision; it was a mistake. Turns out, WebSockets and web APIs *really aren't your friends*.
+
+I deal with a number of headaches over the course of the event, including device interactions, WebSockets, the *horrendous* iOS certificate signing process, and VS Code's SSH *absolutely ####ing* the Pi's CPU somehow??? In all honesty, I'm not very experienced with this, but I would *not* do it like this next time. I'd like to think my design was pretty solid, though.
+
+![Remote Webapp](/img/articles/my-first-hackathon/a02468cd-be8f-45e6-ab5f-5341c0640a57_1600x1200.jpg)
+
+My caffeine-addled teammates stay up designing and manufacturing the car's components, while I go home to my warm and cushy bed. *My bad guys, I'm just not doing all that.*
+
+We start assembling and integrating an hour before go time, and we don't exactly finish in time. We carried our car around the track manually, to much laughter and applause. It was a fun experience! I learned a lot, and I made a nifty little remote.
+
+![Remote in action](/img/articles/my-first-hackathon/2999cb5d-a476-435c-bbd6-f99f6a244682_1384x1080.jpg)
+
+Read my sane, polished and perfect code here:
+
+<https://github.com/ImAvafe/null-remote>
