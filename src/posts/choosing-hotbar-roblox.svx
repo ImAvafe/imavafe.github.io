@@ -13,33 +13,23 @@ At some point in development, you very well might want to replace Roblox's hotba
 
 Satchel excels as an 'exact' replacement for the default hotbar, supporting the inventory system much like Roblox does it, with near-identically designed interactions. Its UI is easy to customize, but limited in flexibility.
 
-Easy install ✅
-
-Stylish ➖
-
-Cross-platform ✅
-
-Inventory ✅
-
-Fully customizable ❌
-
-Easy to customize ✅
+- Easy install ✅
+- Stylish ➖
+- Cross-platform ✅
+- Inventory ✅
+- Fully customizable ❌
+- Easy to customize ✅
 
 # [NeoHotbar](https://devforum.roblox.com/t/neohotbar-a-modern-customizable-backpack/2738850)
 
 NeoHotbar takes a heavier twist on things, reimagining the hotbar's core design and interactions. It doesn't limit the items you can have handy, reducing the need for a built-in inventory. The UI is completely overridable, but requires more development knowledge.
 
-Easy install ✅
-
-Stylish ✅
-
-Cross-platform ✅
-
-Inventory ❌
-
-Fully customizable ✅
-
-Easy to customize ➖
+- Easy install ✅
+- Stylish ✅
+- Cross-platform ✅
+- Inventory ❌
+- Fully customizable ✅
+- Easy to customize ➖
 
 # Making your own
 
