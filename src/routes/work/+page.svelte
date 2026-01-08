@@ -34,7 +34,7 @@
 				<tr>
 					<td>Software Engineer</td>
 					<td>HD Admin</td>
-					<td>Feb 2025 — Present</td>
+					<td>Feb 2025 — Jan 2026</td>
 				</tr>
 				<tr>
 					<td>Founder</td>
