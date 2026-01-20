@@ -1,3 +1,50 @@
+<script>
+	import Gallery from '$lib/components/Gallery.svelte';
+
+	const images = [
+        {
+            largeURL:
+            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg',
+            thumbnailURL:
+            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg',
+            width: 1875,
+            height: 2500,
+        },
+        {
+            largeURL:
+            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg',
+            thumbnailURL:
+            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg',
+            width: 1669,
+            height: 2500,
+        },
+        {
+            largeURL:
+            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg',
+            thumbnailURL:
+            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg',
+            width: 1669,
+            height: 2500,
+        },
+        {
+            largeURL:
+            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
+            thumbnailURL:
+            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
+            width: 2500,
+            height: 1666,
+        },
+        {
+            largeURL:
+            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg',
+            thumbnailURL:
+            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg',
+            width: 1669,
+            height: 2500,
+        },
+    ]
+</script>
+
 <svelte:head>
 	<title>Avafe</title>
 </svelte:head>
@@ -11,6 +58,14 @@ I occasionally experiment in the broader web and game development spaces, includ
 When I'm not working or studying, I love spending time with friends, walking, reading, and going out to events! I also enjoy thinking about systems design in a broader sense, and how it shapes aspects of the world around us.
 
 Proud member of [UWaterloo GDC](/work/uw-gdc) and [Socratica](https://socratica.info).
+
+---
+
+# Gallery 📸
+
+<Gallery galleryID="my-test-gallery" {images} />
+
+---
 
 # Learn more 🔎
 

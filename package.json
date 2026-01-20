@@ -40,6 +40,7 @@
 	},
 	"dependencies": {
 		"daisyui": "^5.1.14",
-		"feedsmith": "^2.2.1"
+		"feedsmith": "^2.2.1",
+		"photoswipe": "^5.4.4"
 	}
 }
