@@ -4,18 +4,16 @@
 
 # Hi, I'm Ava! 👋
 
-I'm a games and software developer, focused on programming, design, and systems. Much of my work is housed under my studio, [Loneka](https://loneka.com) (100B Sess.), which produces leading tools for game developers. I've also worked with [HD Admin](/work/hd-admin) (100B+ Sess.), and friends and contributors globally.
+I'm a 17 y/o software engineer focused on programming, design, and systems. Much of my work is housed under my studio, [Loneka](https://loneka.com) (100B Sess.), which produces leading tools for game developers. I've also led the frontend for [HD Admin](/work/hd-admin) (100B+ Sess.) and made [major contributions](https://github.com/imavafe) to Roblox's open-source ecosystem.
 
-When I'm not working or studying, I love spending time with friends, walking, and going out to events! I also enjoy thinking about design in a broader sense, and how that shapes aspects of the world around us.
+I occasionally experiment in the broader web and game development spaces, including technologies technologies like Svelte and Godot. I generally prefer opinionated tooling, as it tends to be more efficient despite its lesser adoption.
 
-Proud member of [UW GDC](/work/uw-gdc) and [Socratica](https://socratica.info).
+When I'm not working or studying, I love spending time with friends, walking, reading, and going out to events! I also enjoy thinking about systems design in a broader sense, and how it shapes aspects of the world around us.
+
+Proud member of [UWaterloo GDC](/work/uw-gdc) and [Socratica](https://socratica.info).
 
 # Learn more 🔎
 
 - Explore my [work](/work)
 - Read my [articles](/blog)
 - [Contact or follow me](/links)
-
----
-
-<img src="/img/blahaj.gif" style="width:6em">
