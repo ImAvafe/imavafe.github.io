@@ -4,43 +4,83 @@
 	const images = [
         {
             largeURL:
-            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg',
+            "/img/gallery/hd-admin-user.png",
             thumbnailURL:
-            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg',
-            width: 1875,
-            height: 2500,
+            "/img/gallery/hd-admin-user.png",
+            width: 645,
+            height: 864,
         },
         {
             largeURL:
-            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg',
+            "/img/gallery/hd-admin-roles.png",
             thumbnailURL:
-            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg',
-            width: 1669,
-            height: 2500,
+            "/img/gallery/hd-admin-roles.png",
+            width: 983,
+            height: 1317,
         },
         {
             largeURL:
-            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg',
+            "/img/gallery/hd-admin-settings.png",
             thumbnailURL:
-            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg',
-            width: 1669,
-            height: 2500,
+            "/img/gallery/hd-admin-settings.png",
+            width: 968,
+            height: 1303,
         },
         {
             largeURL:
-            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg',
+            '/img/gallery/avalog-all.png',
             thumbnailURL:
-            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg',
-            width: 2500,
-            height: 1666,
+            '/img/gallery/avalog-all.png',
+            width: 3024,
+            height: 1840,
         },
         {
             largeURL:
-            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg',
+            '/img/gallery/poser.png',
             thumbnailURL:
-            'https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg',
-            width: 1669,
-            height: 2500,
+            '/img/gallery/poser.png',
+            width: 3024,
+            height: 1840,
+        },
+        {
+            largeURL:
+            '/img/gallery/loneka-banner.png',
+            thumbnailURL:
+            '/img/gallery/loneka-banner.png',
+            width: 1920,
+            height: 960,
+        },
+        {
+            largeURL:
+            '/img/gallery/onyx-ui.png',
+            thumbnailURL:
+            '/img/gallery/onyx-ui.png',
+            width: 1920,
+            height: 1080,
+        },
+        {
+            largeURL:
+            '/img/gallery/uw-gdc.png',
+            thumbnailURL:
+            '/img/gallery/uw-gdc.png',
+            width: 1920,
+            height: 1080,
+        },
+        {
+            largeURL:
+            '/img/gallery/phasma.png',
+            thumbnailURL:
+            '/img/gallery/phasma.png',
+            width: 1920,
+            height: 1080,
+        },
+        {
+            largeURL:
+            '/img/gallery/ross.png',
+            thumbnailURL:
+            '/img/gallery/ross.png',
+            width: 1920,
+            height: 1080,
         },
     ]
 </script>
