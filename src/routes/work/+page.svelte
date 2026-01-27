@@ -19,6 +19,8 @@
 </svelte:head>
 
 <div>
+	<a href="/avafe-resume.pdf" aria-label="Resume" class="btn w-full btn-lg"> See Resume </a>
+
 	<h1>Roles</h1>
 
 	<div class="overflow-x-auto">
