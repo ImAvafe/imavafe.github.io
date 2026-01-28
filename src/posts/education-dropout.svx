@@ -1,0 +1,33 @@
+---
+title: Education – A Middle School Dropout
+description: Grade 6 dropout pursues higher education
+icon: /img/articles/education-dropout/icon.png
+date: 2026-01-27
+categories:
+- education
+published: true
+---
+
+A whole year ago now, January 2025, I decided to pursue an education. Prior to that, my highest level of education was the 6th grade, and I had a *whole lot* to catch up on. Most importantly, mathematics, as I’d set my sights on the University Of Waterloo.
+
+Seven months prior, July 2024, I had moved out for the first time at 16 years old, to re-explore my hometown in Waterloo, Ontario. Thanks to my business, I had achieved financial freedom, and I wanted to go out into the world and explore young adulthood.
+
+After a summer of unadulterated freedom, I had changed in some ways. I wanted to stay longer. But as the months trailed on, I had grown lonely. I yearned for community, and looked towards California. Little did I know, I had everything I needed right in Waterloo.
+
+I found a weekly gathering on campus, the [UWaterloo Game Development Club](/work/uw-gdc). I was adopted by its members, and before I knew it, I was one of them. As time went on, I met so many incredible and interesting and funny people, that I had everything I needed in a community.
+
+As a middle school dropout, I wasn’t entirely like those surrounding me. Not only was I not a student — not at any university — but I hadn’t finished the most basic levels of the education system. When they would talk of their courses, I had nothing to offer to the conversion. When somebody asked my program, I again, had nothing to offer.
+
+I wanted to become a student, and I wanted it *bad*. I gave myself one year. One year to see it through, to see what it all has to offer. Around the same time, my work was gaining greater recognition, and I’d received an offer to work as the principal frontend developer for [HD Admin](/work/hd-admin). I wasn’t willing to turn down such an opportunity, so I took them both on.
+
+Through the months, I drudged my way through pre-algebra, then algebra and algebra two, acquired a GED diploma, and finally enrolled in the prerequisite courses for university. But with these official courses came heavy bureaucracy, much worse than I had imagined. Half of my course load wasn’t a meaningful contributor to my learning.
+
+That brings me to today. Between everything, I will not be able to finish my prerequisite courses. The workload has become unbearable, and the bureaucracy has made the possibility of completion a far cry at best. It’s no longer feasible.
+
+And you know what? I feel free. I had dug myself so far into these commitments that I had lost sight of my dearest values. The values that have gotten me to where I am in my career. So after a not-so-short breakdown, and the start of grappling with my failure, I feel free.
+
+I don’t regret the past year. I’ve done so much more than I ever thought possible, and I’ve grown as a person because of it. I didn’t think I’d ever graduate high school, but I got my diploma. And HD Admin was integrated within a hit video game, running 25M sessions concurrently, the new world record. My UI library is soon to go live in video games totalling >100B user sessions. It’s not so bad.
+
+I don’t know exactly what comes next. I could continue pursuing university, I could work to grow my business, or I could try my hand at the traditional job market. I’ve been inundated for so long, the freedom is almost daunting.
+
+Takeaways? Uhh.. Don’t abandon your values. Do what you love. If you love pursuing education, do that. If you don't, who am I to shame you? You probably shouldn’t drop out though, at least not before higher education. That one sure bit me in the ass.
