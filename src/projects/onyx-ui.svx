@@ -10,5 +10,17 @@ priority: 1
 categories:
 - roblox
 - tool
-- ui/ux
+- ui-ux
 ---
+
+## Quality components 🧩
+
+Build quality UI faster with dozens of hand-crafted components. Everything is fully typed, so you can spend more time making UI instead of reading the docs.
+
+##  Comprehensive theming 🎨
+
+Style *all* components into the look and feel you desire with OnyxUI's dynamic theming system. Base values propagate into proportional scales, enforcing consistency with ease.
+
+## Styling, now *not* stupid 🖌️
+
+Messy markup sucks. Style any component, with as little as half the code, using passthrough styling props. You can even create compound styles, like gradient strokes.

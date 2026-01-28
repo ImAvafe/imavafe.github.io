@@ -8,9 +8,9 @@ role: Media Executive
 icon: /img/projects/uw-gdc.png
 priority: 5
 metrics:
-- name: Club in Canada
+- name: In Canada
   value: "#1"
-- name: Game Jam Submissions
+- name: Jam Submissions
   value: 162
 - name: Members
   value: 2k

@@ -8,9 +8,10 @@ role: Software Engineer
 icon: /img/projects/hd-admin.png
 priority: 2
 categories:
-- web
-- svelte
-- tailwind
+- roblox
+- fusion
+- onyx-ui
+- ui-ux
 metrics:
 - name: Total Sessions
   value: 100B
