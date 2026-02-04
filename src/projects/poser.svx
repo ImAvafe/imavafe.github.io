@@ -10,6 +10,7 @@ priority: 2
 categories:
 - roblox
 - game
+keyMetric: "41M Sessions"
 metrics:
 - name: Total Sessions
   value: 41M

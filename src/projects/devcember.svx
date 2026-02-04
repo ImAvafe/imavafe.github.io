@@ -8,6 +8,7 @@ icon: /img/projects/devcember.png
 categories:
 - art
 - event
+keyMetric: "69 Submissions"
 metrics:
 - name: Submissions
   value: 69

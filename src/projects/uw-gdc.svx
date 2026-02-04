@@ -7,6 +7,7 @@ type: Organization
 role: Media Executive
 icon: /img/projects/uw-gdc.png
 priority: 5
+keyMetric: "#1 in 🇨🇦"
 metrics:
 - name: In Canada
   value: "#1"

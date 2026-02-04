@@ -101,7 +101,7 @@
 								year: 'numeric',
 								month: 'short'
 							}),
-							project.role
+							project.keyMetric
 						]}
 					/>
 				</li>

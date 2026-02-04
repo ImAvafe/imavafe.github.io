@@ -12,6 +12,7 @@ categories:
 - fusion
 - onyx-ui
 - ui-ux
+keyMetric: "100B Sessions"
 metrics:
 - name: Total Sessions
   value: 100B

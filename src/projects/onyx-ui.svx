@@ -7,6 +7,11 @@ role: Creator
 href: https://loneka.com/onyx-ui
 icon: "/img/projects/onyx-ui.png"
 priority: 1
+keyMetric: "~1B Sessions / Day"
+metrics:
+- name: Sessions / Day
+  value: ~1B
+  clarifier: Up to*
 categories:
 - roblox
 - tool

@@ -12,6 +12,7 @@ categories:
 - tool
 - ui/ux
 - commerce
+keyMetric: "4x Revenue"
 metrics:
 - name: Post-adoption Revenue
   value: 400%
