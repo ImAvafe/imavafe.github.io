@@ -12,6 +12,21 @@
 
 		return projects;
 	});
+
+	const METRICS: [{ name: string; value: string; clarifier?: string }] = [
+		{
+			name: 'Total Sessions',
+			value: '100B'
+		},
+		{
+			name: 'Peak Concurrent Sessions',
+			value: '25M'
+		},
+		{
+			name: 'Community Members',
+			value: '125k'
+		}
+	];
 </script>
 
 <svelte:head>
@@ -19,35 +34,50 @@
 </svelte:head>
 
 <div>
-	<a href="/avafe-resume.pdf" aria-label="Resume" class="btn w-full btn-lg"> See Resume </a>
+	<div class="outline-1 outline-neutral outline-dashed">
+		<div class="stats flex flex-col p-2 outline-1 outline-neutral outline-dashed sm:flex-row">
+			{#each METRICS as metric (metric)}
+				<div class="stat place-items-center">
+					<div class="stat-title">{metric.name}</div>
+					<div class="stat-value">{metric.value}</div>
+					<div class="stat-desc">{metric.clarifier}</div>
+				</div>
+			{/each}
+		</div>
 
-	<h1>Roles</h1>
-
-	<div class="overflow-x-auto">
-		<table class="table mt-0">
-			<thead>
-				<tr>
-					<th>Role</th>
-					<th>Company</th>
-					<th>Date</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Software Engineer</td>
-					<td>HD Admin</td>
-					<td>Feb 2025 — Jan 2026</td>
-				</tr>
-				<tr>
-					<td>Founder</td>
-					<td>Loneka</td>
-					<td>Nov 2021 — Present</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="overflow-x-auto p-6 pb-0">
+			<table class="table mt-0">
+				<thead>
+					<tr>
+						<th>Role</th>
+						<th>Company</th>
+						<th>Date</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="border-b-neutral">
+						<td>Software Engineer</td>
+						<td>HD Admin</td>
+						<td>Feb 2025 — Jan 2026</td>
+					</tr>
+					<tr class="border-b-neutral">
+						<td>Founder</td>
+						<td>Loneka</td>
+						<td>Nov 2022 — Present</td>
+					</tr>
+					<tr class="border-b-neutral">
+						<td>Game Developer</td>
+						<td>Self-employed</td>
+						<td>Mar 2020 — Present</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 
-	<!-- <a href="/resume">See resume</a> -->
+	<br />
+
+	<a href="/avafe-resume.pdf" aria-label="Resume" class="btn w-full btn-lg">See Resume</a>
 
 	<div class="divider"></div>
 
