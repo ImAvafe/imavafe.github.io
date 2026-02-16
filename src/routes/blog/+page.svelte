@@ -11,7 +11,9 @@
 <div>
 	<h1>Blog</h1>
 
-	<p>Opinions are representative of my employer.</p>
+	<p>
+		Opinions are representative of my employer.<br /><i>Unless I'm not currently self-employed*</i>
+	</p>
 
 	<p>
 		Subscribe via

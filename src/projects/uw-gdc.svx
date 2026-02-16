@@ -1,5 +1,5 @@
 ---
-title: UWaterloo Game Dev Club
+title: UW Gamedev
 description: "The University of Waterloo's game development club, home of the largest student-led game jams in Canada."
 date: 2025-9-1
 href: https://uwgamedevclub.itch.io/
