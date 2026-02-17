@@ -1,0 +1,21 @@
+---
+title: Open Game Development
+description: Taking modding to its logical conclusion
+icon: /img/articles/open-gamedev/icon.png
+date: 2026-02-17
+categories:
+- gamedev
+published: true
+---
+
+At some point in the video game life cycle — especially in live service games — they reach a sort of “maintenance” stage. In this stage, the game still benefits from content updates, but the core gameplay is more or less complete.
+
+This stage of development is tedious, and takes away from the time developers could spend creating new games. Despite developers already having moved on, players remain hungry for content updates.
+
+I believe the solution is an open model of game development. Not necessarily open-source, but rather open-contribution. Players themselves should be able to contribute to the game’s continuation through user-generated content updates.
+
+You’d be right to point out that this model already exists through modding. But modding isn’t enough. Developing mods requires significant technical skill, and installing them is far from frictionless for the average player. In live service, it’s virtually nonexistent.
+
+You’re already systematizing the content in your game. If players can earn cosmetics, you have a system to register those cosmetics and handle their functionality. Expose this to your players. Allow them to submit their own content.
+
+As your game scales, consider developing an in-game editor and submission system. Keep reducing the barrier to entry, and community contribution will keep growing. Hold events and competitions around it. Engage your community with creativity.
