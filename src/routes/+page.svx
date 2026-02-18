@@ -1,7 +1,8 @@
-<script>
+<script lang="ts">
 	import Gallery from '$lib/components/Gallery.svelte';
+	import Metrics from '$lib/components/Metrics.svelte';
 
-	const images = [
+	const GALLERY_IMAGES = [
         {
             largeURL:
             "/img/gallery/hd-admin-user.png",
@@ -101,15 +102,24 @@ Proud member of [UW Gamedev](/work/uw-gdc) and [Socratica](https://socratica.inf
 
 ---
 
-# Gallery 📸
+# Snapshot 📸
 
-<Gallery galleryID="my-test-gallery" {images} />
+<Metrics />
+
+<br />
+
+<div class="p-4 outline-1 outline-neutral outline-dashed">
+	<Gallery galleryID="my-test-gallery" images={GALLERY_IMAGES} />
+</div>
+
+<br />
+
+<a href="/work" aria-label="See more" class="btn w-full btn-lg">See more</a>
 
 ---
 
-# Learn more 🔎
+# Wanna talk? 💬 
 
-- Explore my [work](/work)
-- Read my [articles](/blog)
-- [Contact or follow me](/links)
-- See [my resume](/avafe-resume.pdf)
+Feel free to [contact me](/links)!
+
+This is a safe space. 🌈 While I myself am not a techbro, I do not discriminate. 🤗 If you or someone you know is exhibiting techbro tendencies, 👩‍⚕️ know that you are welcomed and appreciated. 🫂

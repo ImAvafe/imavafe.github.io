@@ -46,6 +46,6 @@
 		<div class="px-8 py-6">
 			{@render children?.()}
 		</div>
-		<Footer description="Copyleft 🄯 2025 Avafe" links={footerLinks} />
+		<Footer description="Copyleft 🄯 2026 Avafe" links={footerLinks} />
 	</div>
 </div>
