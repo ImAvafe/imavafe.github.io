@@ -1,7 +1,16 @@
 <script lang="ts">
 	import Article from '$lib/components/Article.svelte';
+	import { onMount } from 'svelte';
 
 	let { data } = $props();
+
+	let searchQuery = `from:avafe.me ${data.meta.title}`;
+	const styleString =
+		"section article { border-bottom-width: 0px !important; }\np { font-size: 0.875em }\nsection img[alt='profile picture'] { width: 44px !important; height: 44px !important }";
+
+	onMount(async () => {
+		await import('bsky-embed/dist/bsky-embed.es.js');
+	});
 </script>
 
 <svelte:head>
@@ -53,4 +62,12 @@
 	<article>
 		<data.content />
 	</article>
+
+	<br />
+
+	<div class="divider"></div>
+
+	<br />
+
+	<bsky-embed search={searchQuery} disable-autoplay="true" custom-styles={styleString}></bsky-embed>
 </div>
