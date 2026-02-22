@@ -1,0 +1,22 @@
+---
+title: Avalog Studio — Now on-sale
+description: Roblox Studio's easiest character editing plugin, now on-sale
+icon: /img/projects/avalog.png
+date: 2026-02-22
+categories:
+- roblox
+- gamedev
+- loneka
+published: true
+---
+
+To celebrate Avalog Studio's release, we're launching it at half the price of competing plugins. For a limited time, it'll be sold for just $14.99. After the sale, we still aim to keep it cheaper than the others.
+
+If you have any questions or run into issues, please send a message in the [`#avalog-studio`](https://loneka.com/suite/discord) Discord channel.
+
+1. Open Avalog Studio
+2. Select an NPC character
+3. Dress them with catalog items
+
+Plugin link: <br />
+https://create.roblox.com/store/asset/134097025563965/

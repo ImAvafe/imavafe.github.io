@@ -1,0 +1,19 @@
+---
+title: Avalog Studio
+description: "NPC avatar editor for Studio"
+date: 2026-02-22
+href: https://create.roblox.com/store/asset/134097025563965/
+type: Plugin
+role: Creator
+icon: /img/projects/avalog.png
+priority: 6
+categories:
+- roblox
+- tool
+- ui/ux
+keyMetric: "Easiest plugin"
+# metrics:
+# - name: Post-adoption Revenue
+#   value: 400%
+#   clarifier: Up To*
+---
