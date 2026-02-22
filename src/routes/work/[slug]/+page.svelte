@@ -6,7 +6,7 @@
 
 	let searchQuery = `from:avafe.me ${data.meta.title}`;
 	const styleString =
-		"section article { border-bottom-width: 0px !important; }\np { font-size: 0.875em }\nsection img[alt='profile picture'] { width: 44px !important; height: 44px !important }";
+		"section article { border-bottom-width: 0px !important; padding-left: 0px !important; padding-right: 0px !important; }\np { font-size: 0.875em }\nsection img[alt='profile picture'] { width: 44px !important; height: 44px !important }";
 
 	onMount(async () => {
 		await import('bsky-embed/dist/bsky-embed.es.js');
