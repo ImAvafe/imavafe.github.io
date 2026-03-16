@@ -11,13 +11,11 @@
 <div>
 	<h1>Blog</h1>
 
-	<p>
-		Opinions are representative of my employer.<br /><i>Unless I'm not currently self-employed*</i>
-	</p>
+	<p>Generalist development, experimentation, and shower thoughts.</p>
 
 	<p>
 		Subscribe via
-		<a href="https://avafe.substack.com/subscribe">Email</a>, <a href="/rss.xml">RSS</a>, or follow
+		<a href="/rss.xml">RSS</a>, <a href="https://avafe.substack.com/subscribe">Email</a>, or follow
 		me <a href="/links">elsewhere</a>.
 	</p>
 
