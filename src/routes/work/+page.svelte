@@ -49,14 +49,14 @@
 						<td>Feb 2025 — Jan 2026</td>
 					</tr>
 					<tr class="border-b-neutral">
-						<td>Founder</td>
+						<td>Founder & Software Engineer</td>
 						<td>Loneka</td>
 						<td>Nov 2022 — Present</td>
 					</tr>
 					<tr class="border-b-neutral">
 						<td>Game Developer</td>
-						<td>Self-employed</td>
-						<td>Mar 2020 — Present</td>
+						<td>Scipher Studios</td>
+						<td>Mar 2020 — Nov 2022</td>
 					</tr>
 				</tbody>
 			</table>
