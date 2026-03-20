@@ -3,13 +3,53 @@
 	import Metrics from '$lib/components/Metrics.svelte';
 
 	const GALLERY_IMAGES = [
+				{
+            largeURL:
+            "/img/gallery/socratica-2.jpeg",
+            thumbnailURL:
+            "/img/gallery/socratica-2.jpeg",
+            width: 4608,
+            height: 3072,
+        },
         {
             largeURL:
-            "/img/gallery/hd-admin-user.png",
+            "/img/gallery/socratica-1.jpeg",
             thumbnailURL:
-            "/img/gallery/hd-admin-user.png",
-            width: 645,
-            height: 864,
+            "/img/gallery/socratica-1.jpeg",
+            width: 1877,
+            height: 1408,
+        },
+        {
+            largeURL:
+            "/img/gallery/uw-gamedev.jpeg",
+            thumbnailURL:
+            "/img/gallery/uw-gamedev.jpeg",
+            width: 4032,
+            height: 3024,
+        },
+        {
+            largeURL:
+            "/img/gallery/socratica-4.jpeg",
+            thumbnailURL:
+            "/img/gallery/socratica-4.jpeg",
+            width: 3809,
+            height: 2539,
+        },
+        {
+            largeURL:
+            "/img/gallery/avalog-tablet.jpeg",
+            thumbnailURL:
+            "/img/gallery/avalog-tablet.jpeg",
+            width: 3024,
+            height: 4032,
+        },
+        {
+            largeURL:
+            "/img/gallery/uw-gamedev-figma.png",
+            thumbnailURL:
+            "/img/gallery/uw-gamedev-figma.png",
+            width: 3248,
+            height: 2120,
         },
         {
             largeURL:
@@ -37,14 +77,6 @@
         },
         {
             largeURL:
-            '/img/gallery/poser.png',
-            thumbnailURL:
-            '/img/gallery/poser.png',
-            width: 3024,
-            height: 1840,
-        },
-        {
-            largeURL:
             '/img/gallery/loneka-banner.png',
             thumbnailURL:
             '/img/gallery/loneka-banner.png',
@@ -61,9 +93,33 @@
         },
         {
             largeURL:
+            '/img/gallery/avalog-site.png',
+            thumbnailURL:
+            '/img/gallery/avalog-site.png',
+            width: 3248,
+            height: 2122,
+        },
+        {
+            largeURL:
+            '/img/gallery/poser.png',
+            thumbnailURL:
+            '/img/gallery/poser.png',
+            width: 3024,
+            height: 1840,
+        },
+        {
+            largeURL:
             '/img/gallery/uw-gdc.png',
             thumbnailURL:
             '/img/gallery/uw-gdc.png',
+            width: 1920,
+            height: 1080,
+        },
+        {
+            largeURL:
+            '/img/gallery/ross.png',
+            thumbnailURL:
+            '/img/gallery/ross.png',
             width: 1920,
             height: 1080,
         },
@@ -77,13 +133,13 @@
         },
         {
             largeURL:
-            '/img/gallery/ross.png',
+            "/img/gallery/jason-weef.jpeg",
             thumbnailURL:
-            '/img/gallery/ross.png',
-            width: 1920,
-            height: 1080,
+            "/img/gallery/jason-weef.jpeg",
+            width: 1152,
+            height: 811,
         },
-    ]
+      ]
 </script>
 
 <svelte:head>
