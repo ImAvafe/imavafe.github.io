@@ -5,7 +5,7 @@ icon: /img/articles/education-dropout/icon.png
 date: 2026-01-27
 categories:
 - education
-published: true
+published: false
 ---
 
 A whole year ago now, January 2025, I decided to pursue an education. Due to various causes, my highest level of education was the 6th grade, and I had a *whole lot* to catch up on. Most importantly, mathematics, as I’d set my sights on the University Of Waterloo.
