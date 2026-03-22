@@ -34,9 +34,9 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<title>Avafe</title>
-	<meta property="og:title" content="Avafe" />
-	<meta property="og:description" content="Games & Software Developer" />
+	<title>Ava Lynch — Avafe</title>
+	<meta property="og:title" content="Ava Lynch — Avafe" />
+	<meta property="og:description" content="E2E Software Engineer • 100B Sessions" />
 	<meta property="og:image" content="https://avafe.me/img/og-image.png" />
 </svelte:head>
 
@@ -46,6 +46,6 @@
 		<div class="p-4">
 			{@render children?.()}
 		</div>
-		<Footer description="Copyleft 🄯 2026 Avafe" links={footerLinks} />
+		<Footer description="Copyleft 🄯 2026 Ava Lynch" links={footerLinks} />
 	</div>
 </div>
