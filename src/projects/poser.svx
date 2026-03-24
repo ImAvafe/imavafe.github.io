@@ -6,7 +6,7 @@ date: 2023-07-14
 href: https://www.roblox.com/games/12716101148/
 role: Creator
 icon: "/img/projects/poser.png"
-priority: 2
+priority: 5
 categories:
 - roblox
 - game

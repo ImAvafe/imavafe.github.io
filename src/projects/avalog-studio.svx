@@ -6,12 +6,12 @@ href: https://create.roblox.com/store/asset/134097025563965/
 type: Plugin
 role: Creator
 icon: /img/projects/avalog.png
-priority: 6
+priority: 7
 categories:
 - roblox
 - tool
 - ui/ux
-keyMetric: "Easiest plugin"
+keyMetric: "Top Workflow"
 # metrics:
 # - name: Post-adoption Revenue
 #   value: 400%

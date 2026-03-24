@@ -44,7 +44,7 @@
 				</thead>
 				<tbody>
 					<tr class="border-b-neutral">
-						<td>Software Engineer</td>
+						<td>Principal Frontend Engineer</td>
 						<td>HD Admin</td>
 						<td>Feb 2025 — Jan 2026</td>
 					</tr>
@@ -84,7 +84,7 @@
 						icon={project.icon}
 						href={`/work/${project.slug}`}
 						markers={[
-							project.type,
+							project.role,
 							new Date(project.date).toLocaleDateString('en-US', {
 								year: 'numeric',
 								month: 'short'

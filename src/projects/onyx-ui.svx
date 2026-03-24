@@ -1,31 +1,22 @@
 ---
 title: OnyxUI
-description: "Quick, customizable UI for Fusion"
+description: "Quick, customizable components for Fusion"
 date: 2024-2-19
 type: Library
 role: Creator
-href: https://loneka.com/onyx-ui
+href: https://github.com/loneka/onyx-ui/
 icon: "/img/projects/onyx-ui.png"
 priority: 1
-keyMetric: "~1B Sessions / Day"
+keyMetric: "100B Sessions"
 metrics:
-- name: Sessions / Day
-  value: ~1B
-  clarifier: Up to*
+- name: Total User Sessions
+  value: 100B
+- name: Peak Sessions / Day
+  value: 1B
+- name: Components
+  value: 27
 categories:
 - roblox
-- tool
-- ui-ux
+- library
+- fusion
 ---
-
-## Quality components 🧩
-
-Build quality UI faster with dozens of hand-crafted components. Everything is fully typed, so you can spend more time making UI instead of reading the docs.
-
-##  Comprehensive theming 🎨
-
-Style *all* components into the look and feel you desire with OnyxUI's dynamic theming system. Base values propagate into proportional scales, enforcing consistency with ease.
-
-## Styling, now *not* stupid 🖌️
-
-Messy markup sucks. Style any component, with as little as half the code, using passthrough styling props. You can even create compound styles, like gradient strokes.

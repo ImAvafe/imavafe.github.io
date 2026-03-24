@@ -1,16 +1,19 @@
 <script lang="ts">
 	const METRICS: [{ name: string; value: string; clarifier?: string }] = [
 		{
-			name: 'Total Sessions',
-			value: '100B'
-		},
-		{
-			name: 'Peak Concurrent Sessions',
-			value: '25M'
+			name: 'Total User Sessions',
+			value: '100B+',
+			clarifier: 'on my products'
 		},
 		{
 			name: 'Community Members',
-			value: '125k'
+			value: '125k',
+			clarifier: 'in my groups'
+		},
+		{
+			name: 'Professional Experience',
+			value: '6yr',
+			clarifier: 'or 10+ hobbyist'
 		}
 	];
 </script>

@@ -28,13 +28,13 @@
 			description={data.meta.description}
 			href="#"
 			markers={[
-				data.meta.type,
+				data.meta.role,
 				new Date(data.meta.date).toLocaleDateString('en-US', {
 					year: 'numeric',
 					month: 'short'
 				}),
-				data.meta.role,
-				(data.meta.categories || []).toString().replaceAll(',', ', ')
+				data.meta.type
+				// (data.meta.categories || []).toString().replaceAll(',', ', ')
 			]}
 		/>
 

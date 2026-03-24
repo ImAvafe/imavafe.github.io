@@ -1,9 +1,9 @@
 ---
 title: Avalog
-description: "Easy, themable avatar catalog for Roblox"
+description: "The premium avatar catalog editor"
 date: 2024-11-26
 href: https://loneka.com/avalog
-type: App
+type: Applet
 role: Creator
 icon: /img/projects/avalog.png
 priority: 3
@@ -14,7 +14,11 @@ categories:
 - commerce
 keyMetric: "4x Revenue"
 metrics:
+- name: Total Sessions
+  value: 1B
 - name: Post-adoption Revenue
-  value: 400%
+  value: 4x
   clarifier: Up To*
+- name: Satisfaction Rate
+  value: 94%
 ---
