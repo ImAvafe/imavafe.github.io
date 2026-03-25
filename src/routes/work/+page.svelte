@@ -65,7 +65,7 @@
 
 	<br />
 
-	<a href="/avafe-resume.pdf" aria-label="Resume" class="btn w-full btn-lg">See Resume</a>
+	<a href="/resume.pdf" aria-label="Resume" class="btn w-full btn-lg">See Resume</a>
 
 	<div class="divider"></div>
 
