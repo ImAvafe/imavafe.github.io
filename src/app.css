@@ -12,7 +12,7 @@
 	--color-base-100: oklch(99% 0 0);
 	--color-base-200: oklch(97% 0 0);
 	--color-base-300: oklch(94% 0 0);
-	--color-base-content: oklch(20% 0 0);
+	--color-base-content: oklch(30% 0 0);
 	--color-primary: #9f84ff;
 	--color-primary-content: #9f84ff;
 	--color-secondary: oklch(87% 0 0);
@@ -47,7 +47,7 @@
 	--color-base-100: oklch(15% 0 0);
 	--color-base-200: oklch(19% 0 0);
 	--color-base-300: oklch(22% 0 0);
-	--color-base-content: oklch(87.609% 0 0);
+	--color-base-content: oklch(85% 0 0);
 	--color-primary: #9f84ff;
 	--color-primary-content: #9f84ff;
 	--color-secondary: oklch(35% 0 0);
@@ -75,12 +75,12 @@
 }
 
 :root {
-	--color-border: var(--color-neutral-300);
+	--color-border: oklch(80% 0 0);
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-border: var(--color-neutral-700);
+		--color-border: oklch(40% 0 0);
 	}
 }
 
