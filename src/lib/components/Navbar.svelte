@@ -8,7 +8,7 @@
 	}[] = [];
 </script>
 
-<div class="navbar bg-base-100 px-4 outline-1 outline-neutral">
+<div class="navbar px-4 outline-1 outline-neutral">
 	<div class="flex w-full flex-wrap justify-between gap-2">
 		<a href="/" class="my-0 text-3xl font-bold text-primary no-underline">{title}</a>
 		<ul class="mt-0 mb-0 flex list-none flex-row flex-wrap gap-2 px-0">
