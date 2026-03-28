@@ -19,7 +19,7 @@
 	--color-secondary-content: oklch(26% 0 0);
 	--color-accent: oklch(87% 0 0);
 	--color-accent-content: oklch(26% 0 0);
-	--color-neutral: oklch(80% 0 0);
+	--color-neutral: oklch(95% 0 0);
 	--color-neutral-content: oklch(26% 0 0);
 	--color-info: oklch(44% 0.11 240.79);
 	--color-info-content: oklch(90% 0.058 230.902);
@@ -54,7 +54,7 @@
 	--color-secondary-content: oklch(100% 0 0);
 	--color-accent: oklch(35% 0 0);
 	--color-accent-content: oklch(100% 0 0);
-	--color-neutral: oklch(35% 0 0);
+	--color-neutral: oklch(25% 0 0);
 	--color-neutral-content: oklch(100% 0 0);
 	--color-info: oklch(45.201% 0.313 264.052);
 	--color-info-content: oklch(89.04% 0.062 264.052);
@@ -74,6 +74,16 @@
 	--noise: 0;
 }
 
+:root {
+	--color-border: var(--color-neutral-300);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-border: var(--color-neutral-700);
+	}
+}
+
 @theme {
 	--breakpoint-xs: 30rem;
 
@@ -82,6 +92,8 @@
 	--font-normal: 400;
 
 	--text-base: 20px;
+
+	--color-border: var(--color-border);
 }
 
 .btn {

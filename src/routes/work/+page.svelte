@@ -23,7 +23,7 @@
 	<h1 class="[&]:mt-0">Work</h1>
 
 	<div
-		class="card flex gap-2 p-4 outline-1 outline-neutral outline-dashed prose-headings:mt-0 prose-headings:mb-0"
+		class="card flex gap-2 p-4 outline-1 outline-border outline-dashed prose-headings:mt-0 prose-headings:mb-0"
 	>
 		<div class="card-body p-0">
 			<a href="/links"><h3 class="mt-0 mb-0">Seeking Canadian employment 🇨🇦</h3></a>
@@ -32,7 +32,7 @@
 
 	<br />
 
-	<div class="outline-1 outline-neutral outline-dashed">
+	<div class="outline-1 outline-border outline-dashed">
 		<Metrics />
 
 		<div class="overflow-x-auto p-6 pb-0">
@@ -45,17 +45,17 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr class="border-b-neutral">
+					<tr class="border-b-border">
 						<td>Principal Frontend Engineer</td>
 						<td>HD Admin</td>
 						<td>Feb 2025 — Jan 2026</td>
 					</tr>
-					<tr class="border-b-neutral">
+					<tr class="border-b-border">
 						<td>Founder & Software Engineer</td>
 						<td>Loneka</td>
 						<td>Nov 2022 — Present</td>
 					</tr>
-					<tr class="border-b-neutral">
+					<tr class="border-b-border">
 						<td>Game Developer</td>
 						<td>Scipher Studios</td>
 						<td>Mar 2020 — Nov 2022</td>

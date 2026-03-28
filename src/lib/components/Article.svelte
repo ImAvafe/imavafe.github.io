@@ -8,7 +8,7 @@
 
 <a {href} class="not-prose no-underline">
 	<div
-		class="card flex flex-row gap-6 p-4 outline-1 outline-neutral transition-colors hover:outline-primary"
+		class="card flex flex-row gap-6 p-4 outline-1 outline-border transition-colors hover:outline-primary"
 	>
 		<img
 			src={icon}

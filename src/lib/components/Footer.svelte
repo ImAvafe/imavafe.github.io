@@ -6,7 +6,7 @@
 	}[] = [];
 </script>
 
-<div class="px-4 py-4 outline-1 outline-neutral">
+<div class="px-4 py-4 outline-1 outline-border">
 	<div class="flex w-full flex-wrap justify-between">
 		<span class="flex flex-row gap-2"
 			><p class="mt-0 mb-0">{description}</p>

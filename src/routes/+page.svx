@@ -164,7 +164,7 @@ Proud member of [UW Gamedev](/work/uw-gdc) and [Socratica](https://socratica.inf
 
 <br />
 
-<div class="p-4 outline-1 outline-neutral outline-dashed">
+<div class="p-4 outline-1 outline-border outline-dashed">
 	<Gallery galleryID="my-test-gallery" images={GALLERY_IMAGES} />
 </div>
 

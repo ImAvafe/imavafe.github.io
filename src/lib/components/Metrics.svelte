@@ -18,7 +18,7 @@
 	];
 </script>
 
-<div class="stats flex flex-col p-2 outline-1 outline-neutral outline-dashed xs:flex-row">
+<div class="stats flex flex-col p-2 outline-1 outline-border outline-dashed xs:flex-row">
 	{#each METRICS as metric (metric)}
 		<div class="my-4 stat place-items-center p-0 sm:my-0 sm:p-4">
 			<div class="stat-title">{metric.name}</div>

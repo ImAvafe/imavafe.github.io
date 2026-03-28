@@ -39,7 +39,7 @@
 		/>
 
 		{#if data.meta.metrics}
-			<div class="stats flex flex-col outline-1 outline-neutral sm:flex-row">
+			<div class="stats flex flex-col outline-1 outline-border sm:flex-row">
 				{#each data.meta.metrics as metric (metric)}
 					<div class="stat place-items-center">
 						<div class="stat-title">{metric.name}</div>
@@ -51,7 +51,7 @@
 		{/if}
 
 		{#if data.meta.href}
-			<div class="w-full outline-1 outline-neutral">
+			<div class="w-full outline-1 outline-border">
 				<a href={data.meta.href} target="_blank" class="btn w-full btn-lg">Open Site</a>
 			</div>
 		{/if}
