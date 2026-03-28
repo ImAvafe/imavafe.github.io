@@ -20,6 +20,8 @@
 </svelte:head>
 
 <div>
+	<h1 class="[&]:mt-0">Work</h1>
+
 	<div
 		class="card flex gap-2 p-4 outline-1 outline-neutral outline-dashed prose-headings:mt-0 prose-headings:mb-0"
 	>
@@ -69,7 +71,7 @@
 
 	<div class="divider"></div>
 
-	<h1>Work</h1>
+	<h1>Portfolio</h1>
 
 	<p>Ranked by favoritism.</p>
 

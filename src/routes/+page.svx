@@ -146,7 +146,7 @@
 	<title>Ava Lynch — Avafe</title>
 </svelte:head>
 
-# Hi, I'm Ava! 👋
+<h1 class="[&]:mt-0">Hi, I'm Ava! 👋</h1>
 
 I'm an end-to-end software engineer focused on design. I founded [Loneka](https://loneka.com), (100B Sess.) producing leading game development tools; led the frontend for [HD Admin](/work/hd-admin); (100B+ Sess.) and made a number of [open-source contributions](https://github.com/imavafe).
 
@@ -156,7 +156,7 @@ When I'm not working or tinkering, I love spending time with friends, walking, r
 
 Proud member of [UW Gamedev](/work/uw-gdc) and [Socratica](https://socratica.info).
 
----
+<div class="divider"></div>
 
 # Snapshot 📸
 
@@ -172,7 +172,10 @@ Proud member of [UW Gamedev](/work/uw-gdc) and [Socratica](https://socratica.inf
 
 <a href="/work" aria-label="See more" class="btn w-full btn-lg">See more</a>
 
----
+<br />
+<br />
+
+<div class="divider"></div>
 
 # Want to talk? 💬 
 

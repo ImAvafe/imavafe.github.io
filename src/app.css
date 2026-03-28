@@ -75,9 +75,12 @@
 }
 
 @theme {
+	--breakpoint-xs: 30rem;
+
 	--font-sans: 'Bricolage Grotesque', sans-serif;
 	--font-serif: 'Source Serif 4', serif;
 	--font-normal: 400;
+
 	--text-base: 20px;
 }
 

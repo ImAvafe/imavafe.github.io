@@ -2,7 +2,7 @@
 	<title>Links - Avafe</title>
 </svelte:head>
 
-# Links
+<h1 class="[&]:mt-0">Links</h1>
 
 ## Contacts
 

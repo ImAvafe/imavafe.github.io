@@ -43,7 +43,7 @@
 <div class="flex w-full flex-col items-center">
 	<div class="w-full max-w-4xl outline-1 outline-neutral">
 		<Navbar title="avafe.me" items={navItems} />
-		<div class="p-4">
+		<div class="p-4 md:p-8">
 			{@render children?.()}
 		</div>
 		<Footer description="Copyleft 🄯 2026 Ava Lynch" links={footerLinks} />

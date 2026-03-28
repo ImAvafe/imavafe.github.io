@@ -8,21 +8,21 @@
 
 <a {href} class="not-prose no-underline">
 	<div
-		class="card flex flex-col gap-6 p-4 outline-1 outline-neutral transition-colors hover:outline-primary sm:flex-row"
+		class="card flex flex-row gap-6 p-4 outline-1 outline-neutral transition-colors hover:outline-primary"
 	>
 		<img
 			src={icon}
 			alt="Article icon."
-			class="icon aspect-square max-h-24 max-w-24 sm:max-h-36 sm:max-w-36"
+			class="icon aspect-square max-h-24 max-w-24 sm:max-h-32 sm:max-w-32"
 		/>
 		<div class="flex flex-col flex-wrap gap-2">
 			<h1 class="mt-0 mb-0 text-2xl font-bold">{title}</h1>
 			<p class="mt-0 mb-0 flex-1">{description}</p>
 			<ul class="flex flex-row flex-wrap">
 				{#each markers as marker, index (index)}
-					<li class="inline-block"><p class="font-semibold">{marker}</p></li>
+					<li class="inline-block"><p class="leading-4 font-semibold">{marker}</p></li>
 					{#if index < markers.length - 1}
-						<span class="mr-2 ml-2">&#8226;</span>
+						<span class="mr-2 ml-2 leading-4">&#8226;</span>
 					{/if}
 				{/each}
 			</ul>

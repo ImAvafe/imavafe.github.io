@@ -9,9 +9,9 @@
 </svelte:head>
 
 <div>
-	<h1>Blog</h1>
+	<h1 class="[&]:mt-0">Blog</h1>
 
-	<p>Generalist development, experimentation, and shower thoughts.</p>
+	<p>Devlogs, talks, and shower thoughts.</p>
 
 	<p>
 		Subscribe via
