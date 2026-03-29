@@ -5,6 +5,7 @@ date: 2022-09-20
 href: https://loneka.com/neohotbar/
 type: Tool
 role: Creator
+independent: true
 icon: /img/projects/neohotbar.png
 priority: 6
 categories:

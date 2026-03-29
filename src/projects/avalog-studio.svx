@@ -5,6 +5,7 @@ date: 2026-02-22
 href: https://create.roblox.com/store/asset/134097025563965/
 type: Plugin
 role: Creator
+independent: true
 icon: /img/projects/avalog.png
 priority: 7
 categories:

@@ -4,12 +4,13 @@ description: "Quick, customizable components for Fusion"
 date: 2024-2-19
 type: Library
 role: Creator
+independent: true
 href: https://github.com/loneka/onyx-ui/
 icon: "/img/projects/onyx-ui.png"
 priority: 1
 keyMetric: "100B Sessions"
 metrics:
-- name: Total User Sessions
+- name: Embedded User Sessions
   value: 100B
 - name: Peak Sessions / Day
   value: 1B

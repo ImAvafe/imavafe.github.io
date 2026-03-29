@@ -5,6 +5,7 @@ type: Game
 date: 2023-07-14
 href: https://www.roblox.com/games/12716101148/
 role: Creator
+independent: true
 icon: "/img/projects/poser.png"
 priority: 5
 categories:

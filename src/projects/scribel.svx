@@ -5,6 +5,7 @@ date: 2024-07-22
 href: http://roblox.com/games/18609236852
 type: Game
 role: Creator
+independent: true
 icon: /img/projects/scribel.png
 categories:
 - roblox

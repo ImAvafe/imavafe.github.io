@@ -5,6 +5,7 @@ date: 2024-03-26
 href: https://www.roblox.com/games/16882394262
 type: Game
 role: Creator
+independent: true
 icon: /img/projects/climb-of-chaos.png
 categories:
 - roblox

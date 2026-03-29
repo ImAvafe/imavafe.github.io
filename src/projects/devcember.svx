@@ -4,6 +4,7 @@ description: "Month-long artistic game development event"
 date: 2023-12-01
 type: Event
 role: Organizer
+independent: true
 icon: /img/projects/devcember.png
 categories:
 - art

@@ -5,6 +5,7 @@ date: 2024-12-30
 href: https://sayhey2.me/
 type: Website
 role: Creator
+independent: true
 icon: /img/projects/say-hey-2-me.png
 categories:
 - web

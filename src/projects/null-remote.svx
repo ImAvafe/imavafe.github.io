@@ -5,6 +5,7 @@ date: 2025-03-21
 href: https://github.com/ImAvafe/null-remote
 type: App
 role: Creator
+independent: true
 icon: /img/projects/null-remote.png
 categories:
 - web

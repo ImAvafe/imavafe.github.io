@@ -16,6 +16,7 @@ export type Project = {
 	description: string;
 	type: string;
 	role: string;
+	independent: boolean;
 	date: string;
 	icon: string;
 	categories: Categories[];

@@ -8,7 +8,7 @@
 
 <a {href} class="not-prose no-underline">
 	<div
-		class="card flex flex-row gap-6 p-4 outline-1 outline-border transition-colors hover:outline-primary"
+		class="card flex flex-row gap-6 p-4 outline-1 outline-border transition-all hover:outline-2 hover:outline-primary"
 	>
 		<img
 			src={icon}
@@ -37,7 +37,7 @@
 		--g: 6px; /* the gap between the border and image */
 
 		padding: calc(var(--g) + var(--t));
-		outline: var(--t) solid var(--color-neutral); /* the color here */
+		outline: var(--t) solid var(--color-border); /* the color here */
 		outline-offset: calc(-1 * var(--t));
 		mask:
 			conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 / calc(100% - var(--s))

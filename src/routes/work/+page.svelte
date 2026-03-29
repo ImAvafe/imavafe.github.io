@@ -80,7 +80,7 @@
 			{#each sortedProjects as project (project)}
 				<li class="">
 					<Article
-						title={project.title}
+						title={`${project.title}`}
 						description={project.description}
 						date={project.date}
 						icon={project.icon}

@@ -4,6 +4,7 @@ description: "Social framework for Roblox"
 date: 2022-11-07
 href: https://docs.rorooms.com/
 role: Creator
+independent: true
 type: Framework
 icon: /img/projects/rorooms.png
 priority: 6

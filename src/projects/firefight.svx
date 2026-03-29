@@ -5,6 +5,7 @@ date: 2025-02-08
 href: https://github.com/ImAvafe/godot-firefight
 type: Game
 role: Creator
+independent: true
 icon: /img/projects/firefight.png
 priority: 8
 categories:
