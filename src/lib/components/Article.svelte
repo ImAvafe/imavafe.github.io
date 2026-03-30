@@ -15,12 +15,12 @@
 			alt="Article icon."
 			class="icon aspect-square max-h-24 max-w-24 sm:max-h-32 sm:max-w-32"
 		/>
-		<div class="flex flex-col flex-wrap gap-2">
-			<h1 class="mt-0 mb-0 text-2xl font-bold">{title}</h1>
-			<p class="mt-0 mb-0 flex-1">{description}</p>
+		<div class="flex flex-col flex-wrap gap-1">
+			<span class="text-[22px] font-bold">{title}</span>
+			<p class="flex-1 leading-6">{description}</p>
 			<ul class="flex flex-row flex-wrap">
 				{#each markers as marker, index (index)}
-					<li class="inline-block"><p class="leading-4 font-semibold">{marker}</p></li>
+					<li class="inline-block"><p class="leading-4 font-medium">{marker}</p></li>
 					{#if index < markers.length - 1}
 						<span class="mr-2 ml-2 leading-4">&#8226;</span>
 					{/if}
