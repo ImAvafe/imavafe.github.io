@@ -1,0 +1,33 @@
+---
+title: Loneka's New Cloud Architecture
+description: The decision-making behind Loneka's new cloud architecture, and what's soon to come.
+icon: /img/articles/loneka-cloud/icon.png
+date: 2026-03-30
+categories:
+- devlog
+- web
+- loneka
+published: true
+---
+
+## Choosing a provider
+
+[Loneka](https://loneka.com)’s new cloud service provider is something I put quite a bit of thought into up-front. I needed something that was developer-friendly in the ways that matter in the long run, not just in the moment. I needed something ergonomic as a developer, migration-friendly as a maintainer, and cost-effective at scale as a business owner.
+
+Though I considered a number of open-source “DIY” approaches, I ultimately went with Cloudflare. At the end of the day, I need to ship and maintain this with little overhead, and that’s what’s most important to me.
+
+So I opted for a combination of Cloudflare Workers, Workers Analytics Engine, and DNS. Development was surprisingly fun, and deployment was instantaneous. I can look over application health and usage at a glance, and update it with a simple push to `main`.
+
+## Building a stack
+
+After deciding upon Cloudflare, I had to compile a tech stack for this new cloud architecture. I wanted RESTful API routing, a full-stack frontend in React, and a database solution appropriate for high-level analytics. Furthermore, I wanted to do it in one codebase, with minimal overhead.
+
+I ended up choosing Next.JS as an all-in-one framework, with OpenNext’s Cloudflare adapter to get around Next.JS’ bias towards Vercel deployment. The front-end uses React and Tailwind, while the backend is supported by Next.JS route handlers calling upon OpenNext’s analytics engine API for data ingestion.
+
+## Coming soon to Avalog
+
+The new backend architecture is live and currently being integrated with [Avalog](https://loneka.com/avalog). The latest development build supports update notices and item curation, but I’m looking into implementing community outfits and developer-facing analytics in the future.
+
+If you spend time browsing Loneka’s software documentation, you may also notice  change there. It’s now being routed through Cloudflare DNS under the `docs` subdomain, and I’m looking into fleshing out page details and SEO.
+
+Stay tuned!<br />https://loneka.com/suite/discord
