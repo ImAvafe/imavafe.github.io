@@ -67,8 +67,6 @@
 
 	<br />
 
-	<a href="/resume.pdf" aria-label="Resume" class="btn w-full btn-lg">See Resume</a>
-
 	<div class="divider"></div>
 
 	<h1>Portfolio</h1>
