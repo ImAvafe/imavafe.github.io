@@ -22,14 +22,6 @@
 <div>
 	<h1 class="[&]:mt-0">Work</h1>
 
-	<div
-		class="card flex gap-2 p-4 outline-1 outline-border outline-dashed prose-headings:mt-0 prose-headings:mb-0"
-	>
-		<div class="card-body p-0">
-			<a href="/links"><h3 class="mt-0 mb-0">Seeking Canadian employment 🇨🇦</h3></a>
-		</div>
-	</div>
-
 	<br />
 
 	<div class="outline-1 outline-border outline-dashed">
