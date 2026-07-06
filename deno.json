@@ -1,0 +1,10 @@
+{
+	"fmt": {
+		"include": ["src/"],
+		"exclude": [".svelte-kit/", "build/"]
+	},
+	"lint": {
+		"include": ["src/"],
+		"exclude": [".svelte-kit/", "build/"]
+	}
+}
