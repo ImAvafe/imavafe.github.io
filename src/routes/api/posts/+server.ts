@@ -1,33 +1,34 @@
-import type { Article } from '$lib/types';
-import { json } from '@sveltejs/kit';
+import type { Article } from "$lib/types";
+import { json } from "@sveltejs/kit";
 
 export const prerender = true;
 
 async function getPosts() {
-	let posts: Article[] = [];
+  let posts: Article[] = [];
 
-	const paths = import.meta.glob('/src/posts/*.svx', { eager: true });
+  const paths = import.meta.glob("/src/posts/*.svx", { eager: true });
 
-	for (const path in paths) {
-		const file = paths[path];
-		const slug = path.split('/').at(-1)?.replace('.svx', '');
+  for (const path in paths) {
+    const file = paths[path];
+    const slug = path.split("/").at(-1)?.replace(".svx", "");
 
-		if (file && typeof file === 'object' && 'metadata' in file && slug) {
-			const metadata = file.metadata as Omit<Article, 'slug'>;
-			const post = { ...metadata, slug } satisfies Article;
+    if (file && typeof file === "object" && "metadata" in file && slug) {
+      const metadata = file.metadata as Omit<Article, "slug">;
+      const post = { ...metadata, slug } satisfies Article;
 
-			posts.push(post);
-		}
-	}
+      posts.push(post);
+    }
+  }
 
-	posts = posts.sort(
-		(first, second) => new Date(second.date).getTime() - new Date(first.date).getTime()
-	);
+  posts = posts.sort(
+    (first, second) =>
+      new Date(second.date).getTime() - new Date(first.date).getTime(),
+  );
 
-	return posts;
+  return posts;
 }
 
 export async function GET() {
-	const posts = await getPosts();
-	return json(posts);
+  const posts = await getPosts();
+  return json(posts);
 }

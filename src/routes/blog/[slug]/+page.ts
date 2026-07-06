@@ -1,16 +1,16 @@
-import { error } from '@sveltejs/kit';
+import { error } from "@sveltejs/kit";
 
 export const prerender = true;
 
 export async function load({ params }) {
-	try {
-		const post = await import(`../../../posts/${params.slug}.svx`);
+  try {
+    const post = await import(`../../../posts/${params.slug}.svx`);
 
-		return {
-			content: post.default,
-			meta: post.metadata
-		};
-	} catch (e) {
-		error(404, `Could not find ${params.slug}`);
-	}
+    return {
+      content: post.default,
+      meta: post.metadata,
+    };
+  } catch (e) {
+    error(404, `Could not find ${params.slug}`);
+  }
 }

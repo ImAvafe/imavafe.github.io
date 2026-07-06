@@ -1,34 +1,35 @@
-import type { Project } from '$lib/types';
-import { json } from '@sveltejs/kit';
+import type { Project } from "$lib/types";
+import { json } from "@sveltejs/kit";
 
 export const prerender = true;
 
 async function getProjects() {
-	let projects: Project[] = [];
+  let projects: Project[] = [];
 
-	const paths = import.meta.glob('/src/projects/*.svx', { eager: true });
+  const paths = import.meta.glob("/src/projects/*.svx", { eager: true });
 
-	for (const path in paths) {
-		const file = paths[path];
-		const slug = path.split('/').at(-1)?.replace('.svx', '');
+  for (const path in paths) {
+    const file = paths[path];
+    const slug = path.split("/").at(-1)?.replace(".svx", "");
 
-		if (file && typeof file === 'object' && 'metadata' in file && slug) {
-			const metadata = file.metadata as Omit<Project, 'slug'>;
-			const project = { ...metadata, slug } satisfies Project;
+    if (file && typeof file === "object" && "metadata" in file && slug) {
+      const metadata = file.metadata as Omit<Project, "slug">;
+      const project = { ...metadata, slug } satisfies Project;
 
-			projects.push(project);
-		}
-	}
+      projects.push(project);
+    }
+  }
 
-	projects = projects.sort(
-		(first, second) => new Date(second.date).getTime() - new Date(first.date).getTime()
-	);
+  projects = projects.sort(
+    (first, second) =>
+      new Date(second.date).getTime() - new Date(first.date).getTime(),
+  );
 
-	return projects;
+  return projects;
 }
 
 export async function GET() {
-	const projects = await getProjects();
+  const projects = await getProjects();
 
-	return json(projects);
+  return json(projects);
 }

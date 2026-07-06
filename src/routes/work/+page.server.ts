@@ -1,10 +1,10 @@
-import type { Project } from '$lib/types.js';
+import type { Project } from "$lib/types.js";
 
 export const prerender = true;
 
 export async function load({ fetch }) {
-	const response = await fetch('/api/projects');
-	const projects: Project[] = await response.json();
+  const response = await fetch("/api/projects");
+  const projects: Project[] = await response.json();
 
-	return { projects: projects };
+  return { projects: projects };
 }
