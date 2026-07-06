@@ -143,16 +143,17 @@
 </script>
 
 <svelte:head>
-	<title>Ava Lynch — Avafe</title>
+
+<title>Ava Lynch — Avafe</title>
 </svelte:head>
 
 <h1 class="[&]:mt-0">Hi, I'm Ava! 👋</h1>
 
 I'm an end-to-end software engineer focused on design. I founded [Loneka](https://loneka.com), producing leading game development tools; led the frontend for [HD Admin](/work/hd-admin); and made a number of [open-source contributions](https://github.com/imavafe).
 
-I'm often tinkering, mostly in web and app development adjacent spaces. I prefer opinionated tools, as they tend to be more efficient to work with despite their caveats. *Contact me if you're making something cool!*
+I'm often tinkering, mostly in game development and its adjacent spaces. I prefer opinionated tools, as they tend to be more efficient to work with despite lesser ecosystems.
 
-When I'm not working or tinkering, I love spending time with friends, walking, reading, and going out to events! I also enjoy thinking about how design shapes aspects of the world at large. Systems are literally everywhere, intentional or procedural.
+Otherwise, I love spending time with friends, walking, reading, and going out to events! I also enjoy thinking about how design shapes aspects of the world at large.
 
 Proud member of [UW Gamedev](/work/uw-gdc) and [Socratica](https://socratica.info).
 
@@ -177,6 +178,6 @@ Proud member of [UW Gamedev](/work/uw-gdc) and [Socratica](https://socratica.inf
 
 <div class="divider"></div>
 
-# Want to talk? 💬 
+# Want to talk? 💬
 
 Feel free to [contact me](/links)! I try to respond to everything, including technical chat, offers, and general inquiries.
