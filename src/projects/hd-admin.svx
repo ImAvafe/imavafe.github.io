@@ -2,22 +2,22 @@
 title: HD Admin
 description: "Gaming's #1 administrative monetization utility"
 date: 2025-2-1
-href: https://create.roblox.com/store/asset/857927023
+href: https://hdadmin.com/
 type: Applet
 role: Principal Frontend Engineer
 icon: /img/projects/hd-admin.png
 priority: 2
 categories:
-- roblox
-- fusion
-- onyx-ui
-- ui-ux
+  - roblox
+  - fusion
+  - onyx-ui
+  - ui-ux
 keyMetric: "25M CCU"
 metrics:
-- name: Total User Sessions
-  value: 100B
-- name: Peak Concurrent Sessions
-  value: 25M
-- name: Satisfaction
-  value: 93%
+  - name: Total User Sessions
+    value: 100B
+  - name: Peak Concurrent Sessions
+    value: 25M
+  - name: Satisfaction
+    value: 93%
 ---

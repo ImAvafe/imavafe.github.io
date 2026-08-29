@@ -6,11 +6,11 @@
 		},
 		{
 			name: 'Community Members',
-			value: '125k'
+			value: '130k'
 		},
 		{
-			name: 'Professional Experience',
-			value: '6yr'
+			name: 'Employed Experience',
+			value: '4yr'
 		}
 	];
 </script>

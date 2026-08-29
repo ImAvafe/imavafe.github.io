@@ -47,11 +47,6 @@
 						<td>Loneka</td>
 						<td>Nov 2022 — Present</td>
 					</tr>
-					<tr class="border-b-border">
-						<td>Game Developer</td>
-						<td>Scipher Studios</td>
-						<td>Mar 2020 — Nov 2022</td>
-					</tr>
 				</tbody>
 			</table>
 		</div>

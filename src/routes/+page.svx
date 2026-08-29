@@ -149,13 +149,11 @@
 
 <h1 class="[&]:mt-0">Hi, I'm Ava! 👋</h1>
 
-I'm an end-to-end software engineer focused on design. I founded [Loneka](https://loneka.com), producing leading game development tools; led the frontend for [HD Admin](/work/hd-admin); and made a number of [open-source contributions](https://github.com/imavafe).
+I'm a game developer and design engineer. I've founded [Loneka](https://loneka.com), producing leading game development tools; led the frontend for [HD Admin](/work/hd-admin); and created numerous indie games over the years.
 
-I'm often tinkering, mostly in game development and its adjacent spaces. I prefer opinionated tools, as they tend to be more efficient to work with despite lesser ecosystems.
+I'm often tinkering, mostly in game and app development. I prefer opinionated tools, as they tend to be more efficient to work with despite lesser ecosystems. I also enjoy thinking about how design shapes aspects of the world at large.
 
-Otherwise, I love spending time with friends, walking, reading, and going out to events! I also enjoy thinking about how design shapes aspects of the world at large.
-
-Proud member of [UW Gamedev](/work/uw-gdc) and [Socratica](https://socratica.info).
+Outside of work, I love spending time outdoors, reading, and going out to events with friends! I can never decide between coffee and tea... ☕🍵🧋
 
 <div class="divider"></div>
 
